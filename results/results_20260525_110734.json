@@ -1,0 +1,69 @@
+{
+  "run_info": {
+    "timestamp": "2026-05-25T11:07:33",
+    "models": [
+      "deepgram"
+    ],
+    "total_files": 3,
+    "dry_run": true
+  },
+  "results": [
+    {
+      "file": "01_kr_puram_fast.wav",
+      "locality": "Kr Puram",
+      "ground_truth": "Haan, main Kr Puram mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "error": "cannot import name 'PrerecordedOptions' from 'deepgram' (/home/shrey/ASR/venv/lib/python3.11/site-packages/deepgram/__init__.py)",
+          "transcript": null,
+          "confidence": null,
+          "latency_ms": null,
+          "word_timings": [],
+          "detected_language": null,
+          "raw_response": {}
+        }
+      }
+    },
+    {
+      "file": "02_rajajinagar_noisy.wav",
+      "locality": "Rajajinagar",
+      "ground_truth": "Haan, main Rajajinagar mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "error": "cannot import name 'PrerecordedOptions' from 'deepgram' (/home/shrey/ASR/venv/lib/python3.11/site-packages/deepgram/__init__.py)",
+          "transcript": null,
+          "confidence": null,
+          "latency_ms": null,
+          "word_timings": [],
+          "detected_language": null,
+          "raw_response": {}
+        }
+      }
+    },
+    {
+      "file": "03_hesaraghatta_whisper.wav",
+      "locality": "Hesaraghatta",
+      "ground_truth": "Haan, main Hesaraghatta mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "error": "cannot import name 'PrerecordedOptions' from 'deepgram' (/home/shrey/ASR/venv/lib/python3.11/site-packages/deepgram/__init__.py)",
+          "transcript": null,
+          "confidence": null,
+          "latency_ms": null,
+          "word_timings": [],
+          "detected_language": null,
+          "raw_response": {}
+        }
+      }
+    }
+  ]
+}

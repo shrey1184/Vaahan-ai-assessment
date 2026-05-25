@@ -1,0 +1,466 @@
+{
+  "run_info": {
+    "timestamp": "2026-05-25T11:30:46",
+    "models": [
+      "deepgram"
+    ],
+    "total_files": 3,
+    "dry_run": true
+  },
+  "results": [
+    {
+      "file": "01_kr_puram_fast.wav",
+      "locality": "Kr Puram",
+      "ground_truth": "Haan, main Kr Puram mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं कर पुरम से बोल रहा हूं.",
+          "confidence": 0.9343262,
+          "latency_ms": 3679,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.8618164
+            },
+            {
+              "word": "कर",
+              "start": 0.24,
+              "end": 0.39999998,
+              "confidence": 0.87353516
+            },
+            {
+              "word": "पुरम",
+              "start": 0.39999998,
+              "end": 0.88,
+              "confidence": 0.9343262
+            },
+            {
+              "word": "से",
+              "start": 0.88,
+              "end": 1.04,
+              "confidence": 1.0
+            },
+            {
+              "word": "बोल",
+              "start": 1.04,
+              "end": 1.28,
+              "confidence": 1.0
+            },
+            {
+              "word": "रहा",
+              "start": 1.28,
+              "end": 1.53,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 1.53,
+              "end": 1.9849375,
+              "confidence": 0.7163086
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5db8-bd84-79e0-a0fe-d4e9f7376497",
+              "sha256": "3eeff2ef701778ffa5710bed8dbbe8abd34e6565a26c5f0c84b8b64ad72bfec4",
+              "created": "2026-05-25T06:04:45.791Z",
+              "duration": 1.9849375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं कर पुरम से बोल रहा हूं.",
+                      "confidence": 0.9343262,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.0,
+                          "end": 0.24,
+                          "confidence": 0.8618164,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "कर",
+                          "start": 0.24,
+                          "end": 0.39999998,
+                          "confidence": 0.87353516,
+                          "punctuated_word": "कर"
+                        },
+                        {
+                          "word": "पुरम",
+                          "start": 0.39999998,
+                          "end": 0.88,
+                          "confidence": 0.9343262,
+                          "punctuated_word": "पुरम"
+                        },
+                        {
+                          "word": "से",
+                          "start": 0.88,
+                          "end": 1.04,
+                          "confidence": 1.0,
+                          "punctuated_word": "से"
+                        },
+                        {
+                          "word": "बोल",
+                          "start": 1.04,
+                          "end": 1.28,
+                          "confidence": 1.0,
+                          "punctuated_word": "बोल"
+                        },
+                        {
+                          "word": "रहा",
+                          "start": 1.28,
+                          "end": 1.53,
+                          "confidence": 1.0,
+                          "punctuated_word": "रहा"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 1.53,
+                          "end": 1.9849375,
+                          "confidence": 0.7163086,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं कर पुरम से बोल रहा हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं कर पुरम से बोल रहा हूं.",
+                                "start": 0.0,
+                                "end": 1.9849375
+                              }
+                            ],
+                            "num_words": 7,
+                            "start": 0.0,
+                            "end": 1.9849375
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "file": "02_rajajinagar_noisy.wav",
+      "locality": "Rajajinagar",
+      "ground_truth": "Haan, main Rajajinagar mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "हाँ भैया, राजाजी नगर में.",
+          "confidence": 0.96191406,
+          "latency_ms": 4895,
+          "word_timings": [
+            {
+              "word": "हाँ",
+              "start": 0.08,
+              "end": 0.39999998,
+              "confidence": 0.5727539
+            },
+            {
+              "word": "भैया",
+              "start": 0.39999998,
+              "end": 0.9,
+              "confidence": 0.94921875
+            },
+            {
+              "word": "राजाजी",
+              "start": 1.04,
+              "end": 1.54,
+              "confidence": 0.96191406
+            },
+            {
+              "word": "नगर",
+              "start": 1.76,
+              "end": 2.01,
+              "confidence": 0.96777344
+            },
+            {
+              "word": "में",
+              "start": 2.01,
+              "end": 2.51,
+              "confidence": 0.99609375
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5db8-d19d-7450-b15c-5ac3b60ab5bb",
+              "sha256": "4b990c4c0cd04af9e174ba950c1262ac301785538310f0218549c5cb1cb888a8",
+              "created": "2026-05-25T06:00:55.348Z",
+              "duration": 2.7599375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "हाँ भैया, राजाजी नगर में.",
+                      "confidence": 0.96191406,
+                      "words": [
+                        {
+                          "word": "हाँ",
+                          "start": 0.08,
+                          "end": 0.39999998,
+                          "confidence": 0.5727539,
+                          "punctuated_word": "हाँ"
+                        },
+                        {
+                          "word": "भैया",
+                          "start": 0.39999998,
+                          "end": 0.9,
+                          "confidence": 0.94921875,
+                          "punctuated_word": "भैया,"
+                        },
+                        {
+                          "word": "राजाजी",
+                          "start": 1.04,
+                          "end": 1.54,
+                          "confidence": 0.96191406,
+                          "punctuated_word": "राजाजी"
+                        },
+                        {
+                          "word": "नगर",
+                          "start": 1.76,
+                          "end": 2.01,
+                          "confidence": 0.96777344,
+                          "punctuated_word": "नगर"
+                        },
+                        {
+                          "word": "में",
+                          "start": 2.01,
+                          "end": 2.51,
+                          "confidence": 0.99609375,
+                          "punctuated_word": "में."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nहाँ भैया, राजाजी नगर में.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "हाँ भैया, राजाजी नगर में.",
+                                "start": 0.08,
+                                "end": 2.51
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 2.51
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "file": "03_hesaraghatta_whisper.wav",
+      "locality": "Hesaraghatta",
+      "ground_truth": "Haan, main Hesaraghatta mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं है सारा घटता area में हूं.",
+          "confidence": 0.97802734,
+          "latency_ms": 2900,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.08,
+              "end": 0.32,
+              "confidence": 1.0
+            },
+            {
+              "word": "है",
+              "start": 0.32,
+              "end": 0.35999998,
+              "confidence": 0.90234375
+            },
+            {
+              "word": "सारा",
+              "start": 0.35999998,
+              "end": 0.39999998,
+              "confidence": 0.8852539
+            },
+            {
+              "word": "घटता",
+              "start": 0.39999998,
+              "end": 0.9,
+              "confidence": 0.97802734
+            },
+            {
+              "word": "area",
+              "start": 1.4399999,
+              "end": 1.92,
+              "confidence": 0.9741211
+            },
+            {
+              "word": "में",
+              "start": 1.92,
+              "end": 2.24,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 2.24,
+              "end": 2.74,
+              "confidence": 1.0
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5db8-ddf6-7380-a89b-4a1f1f0b9d2b",
+              "sha256": "6f19fc041ac3c38afe766cc08ebba210e9b3485922dea6cc1178629459a0ea52",
+              "created": "2026-05-25T06:00:58.742Z",
+              "duration": 2.7839375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं है सारा घटता area में हूं.",
+                      "confidence": 0.97802734,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.08,
+                          "end": 0.32,
+                          "confidence": 1.0,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "है",
+                          "start": 0.32,
+                          "end": 0.35999998,
+                          "confidence": 0.90234375,
+                          "punctuated_word": "है"
+                        },
+                        {
+                          "word": "सारा",
+                          "start": 0.35999998,
+                          "end": 0.39999998,
+                          "confidence": 0.8852539,
+                          "punctuated_word": "सारा"
+                        },
+                        {
+                          "word": "घटता",
+                          "start": 0.39999998,
+                          "end": 0.9,
+                          "confidence": 0.97802734,
+                          "punctuated_word": "घटता"
+                        },
+                        {
+                          "word": "area",
+                          "start": 1.4399999,
+                          "end": 1.92,
+                          "confidence": 0.9741211,
+                          "punctuated_word": "area"
+                        },
+                        {
+                          "word": "में",
+                          "start": 1.92,
+                          "end": 2.24,
+                          "confidence": 1.0,
+                          "punctuated_word": "में"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 2.24,
+                          "end": 2.74,
+                          "confidence": 1.0,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं है सारा घटता area में हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं है सारा घटता area में हूं.",
+                                "start": 0.08,
+                                "end": 2.74
+                              }
+                            ],
+                            "num_words": 7,
+                            "start": 0.08,
+                            "end": 2.74
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

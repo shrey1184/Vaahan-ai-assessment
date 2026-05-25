@@ -1,0 +1,1338 @@
+{
+  "run_info": {
+    "timestamp": "2026-05-25T11:33:29",
+    "models": [
+      "deepgram",
+      "whisper",
+      "sarvam"
+    ],
+    "total_files": 20,
+    "dry_run": false
+  },
+  "models": [
+    "deepgram",
+    "whisper",
+    "sarvam"
+  ],
+  "per_file": [
+    {
+      "file": "01_kr_puram_fast.wav",
+      "locality": "Kr Puram",
+      "condition": "fast",
+      "ground_truth": "Haan, main Kr Puram mein rehta hoon",
+      "ground_truth_normalized": "haan main kr puram mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं कर पुरम से बोल रहा हूं.",
+          "transcript_normalized": "मैं कर पुरम से बोल रहा हूं",
+          "wer": 1.0,
+          "cer": 0.8529411764705882,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 16.666666666666664,
+          "latency_ms": 3738.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं के आर्पूरम से बोल रहा हूं।",
+          "transcript_normalized": "मैं के आर्पूरम से बोल रहा हूं",
+          "wer": 1.0,
+          "cer": 0.8823529411764706,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 16.666666666666664,
+          "latency_ms": 8959.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं के. आर. पूरम से बोल रहा हूं।",
+          "transcript_normalized": "मैं के आर पूरम से बोल रहा हूं",
+          "wer": 1.1428571428571428,
+          "cer": 0.8529411764705882,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 16.666666666666664,
+          "latency_ms": 953.0
+        }
+      }
+    },
+    {
+      "file": "02_rajajinagar_noisy.wav",
+      "locality": "Rajajinagar",
+      "condition": "noisy",
+      "ground_truth": "Haan, main Rajajinagar mein rehta hoon",
+      "ground_truth_normalized": "haan main rajajinagar mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "हाँ भैया, राजाजी नगर में.",
+          "transcript_normalized": "हाँ भैया राजाजी नगर में",
+          "wer": 1.0,
+          "cer": 0.8918918918918919,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 2441.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "हां भईया, राजाजी नगर में",
+          "transcript_normalized": "हां भईया राजाजी नगर में",
+          "wer": 1.0,
+          "cer": 0.8918918918918919,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 8406.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "हां भैया, राजाजी नगर में।",
+          "transcript_normalized": "हां भैया राजाजी नगर में",
+          "wer": 1.0,
+          "cer": 0.8918918918918919,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 4337.0
+        }
+      }
+    },
+    {
+      "file": "03_hesaraghatta_whisper.wav",
+      "locality": "Hesaraghatta",
+      "condition": "whisper",
+      "ground_truth": "Haan, main Hesaraghatta mein rehta hoon",
+      "ground_truth_normalized": "haan main hesaraghatta mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं है सारा घटता area में हूं.",
+          "transcript_normalized": "मैं है सारा घटता area में हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.8421052631578947,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 25.0,
+          "latency_ms": 3783.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं हिसारा घट्टा एरियों में हूं",
+          "transcript_normalized": "मैं हिसारा घट्टा एरियों में हूं",
+          "wer": 1.0,
+          "cer": 0.9210526315789473,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 9298.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं हेसारा घट्टा एरिया में हूं।",
+          "transcript_normalized": "मैं हेसारा घट्टा एरिया में हूं",
+          "wer": 1.0,
+          "cer": 0.9210526315789473,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1295.0
+        }
+      }
+    },
+    {
+      "file": "04_byatarayanapura_clean.wav",
+      "locality": "Byatarayanapura",
+      "condition": "clean",
+      "ground_truth": "Haan, main Byatarayanapura mein rehta hoon",
+      "ground_truth_normalized": "haan main byatarayanapura mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "हान मैं बेतरयानपुरा में रहता हूं",
+          "transcript_normalized": "हान मैं बेतरयानपुरा में रहता हूं",
+          "wer": 1.0,
+          "cer": 0.8780487804878049,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 2276.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "हां, में व्यातरायाना पुरा में रहता हूं",
+          "transcript_normalized": "हां में व्यातरायाना पुरा में रहता हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.9024390243902439,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 9216.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "हाँ, मैं ब्यातारायानापुरा में रहता हूँ।",
+          "transcript_normalized": "हाँ मैं ब्यातारायानापुरा में रहता हूँ",
+          "wer": 1.0,
+          "cer": 0.9024390243902439,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1121.0
+        }
+      }
+    },
+    {
+      "file": "05_doddanekundi_noisy.wav",
+      "locality": "Doddanekundi",
+      "condition": "noisy",
+      "ground_truth": "Haan, main Doddanekundi mein rehta hoon",
+      "ground_truth_normalized": "haan main doddanekundi mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "सर डोलने कुण्डी में काम करता हूं.",
+          "transcript_normalized": "सर डोलने कुण्डी में काम करता हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.8947368421052632,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 2537.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "सर्व, दोन्ने कुन्दी में काम करता हूँ।",
+          "transcript_normalized": "सर्व दोन्ने कुन्दी में काम करता हूँ",
+          "wer": 1.1666666666666667,
+          "cer": 0.8947368421052632,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 8878.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "सर, डोल में कुंडी में काम करता हूं।",
+          "transcript_normalized": "सर डोल में कुंडी में काम करता हूं",
+          "wer": 1.3333333333333333,
+          "cer": 0.8947368421052632,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1413.0
+        }
+      }
+    },
+    {
+      "file": "06_thalaghattapura_phone.wav",
+      "locality": "Thalaghattapura",
+      "condition": "phone",
+      "ground_truth": "Haan, main Thalaghattapura mein rehta hoon",
+      "ground_truth_normalized": "haan main thalaghattapura mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं थैली घटना पूरा से बोल रहा हूं",
+          "transcript_normalized": "मैं थैली घटना पूरा से बोल रहा हूं",
+          "wer": 1.3333333333333333,
+          "cer": 0.8780487804878049,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1963.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं फैले धट्टा पूरा से बोल रहा हूं।",
+          "transcript_normalized": "मैं फैले धट्टा पूरा से बोल रहा हूं",
+          "wer": 1.3333333333333333,
+          "cer": 0.8780487804878049,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 8841.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं पहले घट्टापुरा से बोल रहा हूँ।",
+          "transcript_normalized": "मैं पहले घट्टापुरा से बोल रहा हूँ",
+          "wer": 1.1666666666666667,
+          "cer": 0.8780487804878049,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 636.0
+        }
+      }
+    },
+    {
+      "file": "07_silk_board_whisper.wav",
+      "locality": "Silk Board",
+      "condition": "whisper",
+      "ground_truth": "Haan, main Silk Board mein rehta hoon",
+      "ground_truth_normalized": "haan main silk board mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "सिल्क board, south बैंगलोर.",
+          "transcript_normalized": "सिल्क board south बैंगलोर",
+          "wer": 0.8571428571428571,
+          "cer": 0.8055555555555556,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 60.0,
+          "latency_ms": 3359.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "Silk Board, South Bangalore",
+          "transcript_normalized": "silk board south bangalore",
+          "wer": 0.7142857142857143,
+          "cer": 0.6388888888888888,
+          "entity_exact": true,
+          "entity_fuzzy": true,
+          "entity_fuzzy_score": 100.0,
+          "latency_ms": 7380.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "सिल्क बोर्ड, साउथ बेंगलोर।",
+          "transcript_normalized": "सिल्क बोर्ड साउथ बेंगलोर",
+          "wer": 1.0,
+          "cer": 0.9166666666666666,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 12.5,
+          "latency_ms": 1694.0
+        }
+      }
+    },
+    {
+      "file": "08_hebbal_fast.wav",
+      "locality": "Hebbal",
+      "condition": "fast",
+      "ground_truth": "Haan, main Hebbal mein rehta hoon",
+      "ground_truth_normalized": "haan main hebbal mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेन hable area में हूं.",
+          "transcript_normalized": "मेन hable area में हूं",
+          "wer": 1.0,
+          "cer": 0.78125,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 50.0,
+          "latency_ms": 2718.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "में हेबल एर्यम में हूं।",
+          "transcript_normalized": "में हेबल एर्यम में हूं",
+          "wer": 1.0,
+          "cer": 0.875,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 8335.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं हेबल एरिया में हूं।",
+          "transcript_normalized": "मैं हेबल एरिया में हूं",
+          "wer": 1.0,
+          "cer": 0.875,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 11155.0
+        }
+      }
+    },
+    {
+      "file": "09_bellandur_noisy.wav",
+      "locality": "Bellandur",
+      "condition": "noisy",
+      "ground_truth": "Haan, main Bellandur mein rehta hoon",
+      "ground_truth_normalized": "haan main bellandur mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "हां भैया, बैलेनडोर में.",
+          "transcript_normalized": "हां भैया बैलेनडोर में",
+          "wer": 1.0,
+          "cer": 0.9142857142857143,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 2667.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "हाँ भाईया बेलन दूर्मी",
+          "transcript_normalized": "हाँ भाईया बेलन दूर्मी",
+          "wer": 1.0,
+          "cer": 0.9142857142857143,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7528.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "हां भैया, बेलन डुर मी।",
+          "transcript_normalized": "हां भैया बेलन डुर मी",
+          "wer": 1.0,
+          "cer": 0.8857142857142857,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1736.0
+        }
+      }
+    },
+    {
+      "file": "10_peenya_phone.wav",
+      "locality": "Peenya",
+      "condition": "phone",
+      "ground_truth": "Haan, main Peenya mein rehta hoon",
+      "ground_truth_normalized": "haan main peenya mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा address पीनियल है",
+          "transcript_normalized": "मेरा address पीनियल है",
+          "wer": 1.0,
+          "cer": 0.84375,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 16.666666666666664,
+          "latency_ms": 1476.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा अड्रेस पीनिया है।",
+          "transcript_normalized": "मेरा अड्रेस पीनिया है",
+          "wer": 1.0,
+          "cer": 0.90625,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7327.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा एड्रेस पीनियर है",
+          "transcript_normalized": "मेरा एड्रेस पीनियर है",
+          "wer": 1.0,
+          "cer": 0.90625,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 4813.0
+        }
+      }
+    },
+    {
+      "file": "11_yelahanka_fast.wav",
+      "locality": "Yelahanka",
+      "condition": "fast",
+      "ground_truth": "Haan, main Yelahanka mein rehta hoon",
+      "ground_truth_normalized": "haan main yelahanka mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं यह लहंका से बोल रहा हूं",
+          "transcript_normalized": "मैं यह लहंका से बोल रहा हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.8571428571428571,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 2867.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं ये लहन्क से बोल रहा हूं।",
+          "transcript_normalized": "मैं ये लहन्क से बोल रहा हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.8571428571428571,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7273.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं ये लहन का से बोल रहा हूं।",
+          "transcript_normalized": "मैं ये लहन का से बोल रहा हूं",
+          "wer": 1.3333333333333333,
+          "cer": 0.8571428571428571,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7289.0
+        }
+      }
+    },
+    {
+      "file": "12_koramangala_phone.wav",
+      "locality": "Koramangala",
+      "condition": "phone",
+      "ground_truth": "Haan, main Koramangala mein rehta hoon",
+      "ground_truth_normalized": "haan main koramangala mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा address कोरा मंगला है.",
+          "transcript_normalized": "मेरा address कोरा मंगला है",
+          "wer": 1.0,
+          "cer": 0.8378378378378378,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 11.764705882352944,
+          "latency_ms": 1752.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा अड्रेष कोरमंगला है।",
+          "transcript_normalized": "मेरा अड्रेष कोरमंगला है",
+          "wer": 1.0,
+          "cer": 0.918918918918919,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 6898.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा एड्रेस कोरमंगला है",
+          "transcript_normalized": "मेरा एड्रेस कोरमंगला है",
+          "wer": 1.0,
+          "cer": 0.918918918918919,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 780.0
+        }
+      }
+    },
+    {
+      "file": "13_jayanagar_clean.wav",
+      "locality": "Jayanagar",
+      "condition": "clean",
+      "ground_truth": "Haan, main Jayanagar mein rehta hoon",
+      "ground_truth_normalized": "haan main jayanagar mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं जयनगर area में हूं.",
+          "transcript_normalized": "मैं जयनगर area में हूं",
+          "wer": 1.0,
+          "cer": 0.8285714285714286,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 22.22222222222222,
+          "latency_ms": 2487.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "में जेनगर एरिया में हूं",
+          "transcript_normalized": "में जेनगर एरिया में हूं",
+          "wer": 1.0,
+          "cer": 0.9142857142857143,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7076.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं जयनगर एरिया में हूँ।",
+          "transcript_normalized": "मैं जयनगर एरिया में हूँ",
+          "wer": 1.0,
+          "cer": 0.9142857142857143,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 928.0
+        }
+      }
+    },
+    {
+      "file": "14_chikkabanavara_phone.wav",
+      "locality": "Chikkabanavara",
+      "condition": "phone",
+      "ground_truth": "Haan, main Chikkabanavara mein rehta hoon",
+      "ground_truth_normalized": "haan main chikkabanavara mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं चिक का बनवारा से बोल रहा हूं.",
+          "transcript_normalized": "मैं चिक का बनवारा से बोल रहा हूं",
+          "wer": 1.3333333333333333,
+          "cer": 0.875,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7085.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं चिकका बन्वारा से बोल रहा हूं",
+          "transcript_normalized": "मैं चिकका बन्वारा से बोल रहा हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.9,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7563.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं चिक्का बनवारा से बोल रहा हूँ",
+          "transcript_normalized": "मैं चिक्का बनवारा से बोल रहा हूँ",
+          "wer": 1.1666666666666667,
+          "cer": 0.9,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 909.0
+        }
+      }
+    },
+    {
+      "file": "15_hsr_layout_clean.wav",
+      "locality": "Hsr Layout",
+      "condition": "clean",
+      "ground_truth": "Haan, main Hsr Layout mein rehta hoon",
+      "ground_truth_normalized": "haan main hsr layout mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा address HSR ले out है",
+          "transcript_normalized": "मेरा address hsr ले out है",
+          "wer": 0.8571428571428571,
+          "cer": 0.7777777777777778,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 70.0,
+          "latency_ms": 2711.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा अद्रेस एच असर लियाउट है।",
+          "transcript_normalized": "मेरा अद्रेस एच असर लियाउट है",
+          "wer": 1.0,
+          "cer": 0.8888888888888888,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 15.384615384615385,
+          "latency_ms": 7854.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा एड्रेस एच एस आर लेआउट है।",
+          "transcript_normalized": "मेरा एड्रेस एच एस आर लेआउट है",
+          "wer": 1.0,
+          "cer": 0.8611111111111112,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 15.384615384615385,
+          "latency_ms": 1383.0
+        }
+      }
+    },
+    {
+      "file": "16_marathahalli_whisper.wav",
+      "locality": "Marathahalli",
+      "condition": "whisper",
+      "ground_truth": "Haan, main Marathahalli mein rehta hoon",
+      "ground_truth_normalized": "haan main marathahalli mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं मराठा हल्नी से बोल रहा हूं.",
+          "transcript_normalized": "मैं मराठा हल्नी से बोल रहा हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.8947368421052632,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 2781.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं मराथा हली से बोल रहा हूं",
+          "transcript_normalized": "मैं मराथा हली से बोल रहा हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.8947368421052632,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7477.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मैं मराठा हल्ली से बोल रहा हूं।",
+          "transcript_normalized": "मैं मराठा हल्ली से बोल रहा हूं",
+          "wer": 1.1666666666666667,
+          "cer": 0.8947368421052632,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1336.0
+        }
+      }
+    },
+    {
+      "file": "17_whitefield_noisy.wav",
+      "locality": "Whitefield",
+      "condition": "noisy",
+      "ground_truth": "Haan, main Whitefield mein rehta hoon",
+      "ground_truth_normalized": "haan main whitefield mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "Main Whitefield area में हूं.",
+          "transcript_normalized": "main whitefield area में हूं",
+          "wer": 0.6666666666666666,
+          "cer": 0.5,
+          "entity_exact": true,
+          "entity_fuzzy": true,
+          "entity_fuzzy_score": 100.0,
+          "latency_ms": 2459.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "में वाइट फील एरिया में ही",
+          "transcript_normalized": "में वाइट फील एरिया में ही",
+          "wer": 1.0,
+          "cer": 0.8888888888888888,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7867.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेन वाइट फील्ड एरिया में ही।",
+          "transcript_normalized": "मेन वाइट फील्ड एरिया में ही",
+          "wer": 1.0,
+          "cer": 0.8888888888888888,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1212.0
+        }
+      }
+    },
+    {
+      "file": "18_electronic_city_fast.wav",
+      "locality": "Electronic City",
+      "condition": "fast",
+      "ground_truth": "Haan, main Electronic City mein rehta hoon",
+      "ground_truth_normalized": "haan main electronic city mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "हां भैया, इलेक्ट्रॉनिक city में.",
+          "transcript_normalized": "हां भैया इलेक्ट्रॉनिक city में",
+          "wer": 0.8571428571428571,
+          "cer": 0.8536585365853658,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 41.666666666666664,
+          "latency_ms": 2530.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "हा भईया, अलेक्ट्रोनिक सिटी में",
+          "transcript_normalized": "हा भईया अलेक्ट्रोनिक सिटी में",
+          "wer": 1.0,
+          "cer": 0.9024390243902439,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 11.111111111111116,
+          "latency_ms": 8197.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "हां भैया, इलेक्ट्रॉनिक्स सिटी में।",
+          "transcript_normalized": "हां भैया इलेक्ट्रॉनिक्स सिटी में",
+          "wer": 1.0,
+          "cer": 0.9024390243902439,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 10.526315789473683,
+          "latency_ms": 2379.0
+        }
+      }
+    },
+    {
+      "file": "19_rajarajeshwarinagar_clean.wav",
+      "locality": "Rajarajeshwarinagar",
+      "condition": "clean",
+      "ground_truth": "Haan, main Rajarajeshwarinagar mein rehta hoon",
+      "ground_truth_normalized": "haan main rajarajeshwarinagar mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "हाँ भैया, राजराजेश्वरी नगर में",
+          "transcript_normalized": "हाँ भैया राजराजेश्वरी नगर में",
+          "wer": 1.0,
+          "cer": 0.9111111111111111,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 3798.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "हा भईया, राज राजेशवरी नगर में",
+          "transcript_normalized": "हा भईया राज राजेशवरी नगर में",
+          "wer": 1.0,
+          "cer": 0.9111111111111111,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7951.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "हां भैया, राजराजेश्वरी नगर में।",
+          "transcript_normalized": "हां भैया राजराजेश्वरी नगर में",
+          "wer": 1.0,
+          "cer": 0.9111111111111111,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1177.0
+        }
+      }
+    },
+    {
+      "file": "20_indiranagar_noisy.wav",
+      "locality": "Indiranagar",
+      "condition": "noisy",
+      "ground_truth": "Haan, main Indiranagar mein rehta hoon",
+      "ground_truth_normalized": "haan main indiranagar mein rehta hoon",
+      "models": {
+        "deepgram": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा address इंदिरा नगर है.",
+          "transcript_normalized": "मेरा address इंदिरा नगर है",
+          "wer": 1.0,
+          "cer": 0.8378378378378378,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 19.999999999999996,
+          "latency_ms": 2569.0
+        },
+        "whisper": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा अड्रेस इंडिरानगर है।",
+          "transcript_normalized": "मेरा अड्रेस इंडिरानगर है",
+          "wer": 1.0,
+          "cer": 0.918918918918919,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 7413.0
+        },
+        "sarvam": {
+          "failed": false,
+          "error": null,
+          "transcript": "मेरा एड्रेस इंदिरा नगर है।",
+          "transcript_normalized": "मेरा एड्रेस इंदिरा नगर है",
+          "wer": 1.0,
+          "cer": 0.918918918918919,
+          "entity_exact": false,
+          "entity_fuzzy": false,
+          "entity_fuzzy_score": 0.0,
+          "latency_ms": 1318.0
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "deepgram": {
+      "avg_wer": 1.0285714285714285,
+      "avg_cer": 0.8378144116705999,
+      "entity_exact": 0.05,
+      "entity_fuzzy": 0.05,
+      "avg_latency_ms": 2899.85,
+      "median_latency": 2618.0,
+      "p95_latency": 3962.350000000002,
+      "failure_rate": 0.0,
+      "failures": 0,
+      "total": 20
+    },
+    "whisper": {
+      "avg_wer": 1.0440476190476191,
+      "avg_cer": 0.8850138939728015,
+      "entity_exact": 0.05,
+      "entity_fuzzy": 0.05,
+      "avg_latency_ms": 7986.85,
+      "median_latency": 7860.5,
+      "p95_latency": 9220.1,
+      "failure_rate": 0.0,
+      "failures": 0,
+      "total": 20
+    },
+    "sarvam": {
+      "avg_wer": 1.0654761904761905,
+      "avg_cer": 0.894614734308936,
+      "entity_exact": 0.0,
+      "entity_fuzzy": 0.0,
+      "avg_latency_ms": 2393.2,
+      "median_latency": 1327.0,
+      "p95_latency": 7482.300000000003,
+      "failure_rate": 0.0,
+      "failures": 0,
+      "total": 20
+    }
+  },
+  "condition_breakdown": {
+    "clean": {
+      "deepgram": {
+        "avg_wer": 0.9642857142857143,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      },
+      "whisper": {
+        "avg_wer": 1.0416666666666667,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      },
+      "sarvam": {
+        "avg_wer": 1.0,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      }
+    },
+    "noisy": {
+      "deepgram": {
+        "avg_wer": 0.9666666666666667,
+        "entity_fuzzy": 0.2,
+        "count": 5
+      },
+      "whisper": {
+        "avg_wer": 1.0333333333333334,
+        "entity_fuzzy": 0.0,
+        "count": 5
+      },
+      "sarvam": {
+        "avg_wer": 1.0666666666666667,
+        "entity_fuzzy": 0.0,
+        "count": 5
+      }
+    },
+    "phone": {
+      "deepgram": {
+        "avg_wer": 1.1666666666666665,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      },
+      "whisper": {
+        "avg_wer": 1.125,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      },
+      "sarvam": {
+        "avg_wer": 1.0833333333333335,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      }
+    },
+    "whisper": {
+      "deepgram": {
+        "avg_wer": 1.0634920634920635,
+        "entity_fuzzy": 0.0,
+        "count": 3
+      },
+      "whisper": {
+        "avg_wer": 0.9603174603174603,
+        "entity_fuzzy": 0.3333333333333333,
+        "count": 3
+      },
+      "sarvam": {
+        "avg_wer": 1.0555555555555556,
+        "entity_fuzzy": 0.0,
+        "count": 3
+      }
+    },
+    "fast": {
+      "deepgram": {
+        "avg_wer": 1.005952380952381,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      },
+      "whisper": {
+        "avg_wer": 1.0416666666666667,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      },
+      "sarvam": {
+        "avg_wer": 1.119047619047619,
+        "entity_fuzzy": 0.0,
+        "count": 4
+      }
+    }
+  },
+  "worst_files": {
+    "deepgram": [
+      {
+        "model": "deepgram",
+        "file": "06_thalaghattapura_phone.wav",
+        "condition": "phone",
+        "locality": "Thalaghattapura",
+        "wer": 1.3333333333333333,
+        "transcript": "मैं थैली घटना पूरा से बोल रहा हूं",
+        "ground_truth": "Haan, main Thalaghattapura mein rehta hoon"
+      },
+      {
+        "model": "deepgram",
+        "file": "14_chikkabanavara_phone.wav",
+        "condition": "phone",
+        "locality": "Chikkabanavara",
+        "wer": 1.3333333333333333,
+        "transcript": "मैं चिक का बनवारा से बोल रहा हूं.",
+        "ground_truth": "Haan, main Chikkabanavara mein rehta hoon"
+      },
+      {
+        "model": "deepgram",
+        "file": "03_hesaraghatta_whisper.wav",
+        "condition": "whisper",
+        "locality": "Hesaraghatta",
+        "wer": 1.1666666666666667,
+        "transcript": "मैं है सारा घटता area में हूं.",
+        "ground_truth": "Haan, main Hesaraghatta mein rehta hoon"
+      },
+      {
+        "model": "deepgram",
+        "file": "05_doddanekundi_noisy.wav",
+        "condition": "noisy",
+        "locality": "Doddanekundi",
+        "wer": 1.1666666666666667,
+        "transcript": "सर डोलने कुण्डी में काम करता हूं.",
+        "ground_truth": "Haan, main Doddanekundi mein rehta hoon"
+      },
+      {
+        "model": "deepgram",
+        "file": "11_yelahanka_fast.wav",
+        "condition": "fast",
+        "locality": "Yelahanka",
+        "wer": 1.1666666666666667,
+        "transcript": "मैं यह लहंका से बोल रहा हूं",
+        "ground_truth": "Haan, main Yelahanka mein rehta hoon"
+      }
+    ],
+    "whisper": [
+      {
+        "model": "whisper",
+        "file": "06_thalaghattapura_phone.wav",
+        "condition": "phone",
+        "locality": "Thalaghattapura",
+        "wer": 1.3333333333333333,
+        "transcript": "मैं फैले धट्टा पूरा से बोल रहा हूं।",
+        "ground_truth": "Haan, main Thalaghattapura mein rehta hoon"
+      },
+      {
+        "model": "whisper",
+        "file": "04_byatarayanapura_clean.wav",
+        "condition": "clean",
+        "locality": "Byatarayanapura",
+        "wer": 1.1666666666666667,
+        "transcript": "हां, में व्यातरायाना पुरा में रहता हूं",
+        "ground_truth": "Haan, main Byatarayanapura mein rehta hoon"
+      },
+      {
+        "model": "whisper",
+        "file": "05_doddanekundi_noisy.wav",
+        "condition": "noisy",
+        "locality": "Doddanekundi",
+        "wer": 1.1666666666666667,
+        "transcript": "सर्व, दोन्ने कुन्दी में काम करता हूँ।",
+        "ground_truth": "Haan, main Doddanekundi mein rehta hoon"
+      },
+      {
+        "model": "whisper",
+        "file": "11_yelahanka_fast.wav",
+        "condition": "fast",
+        "locality": "Yelahanka",
+        "wer": 1.1666666666666667,
+        "transcript": "मैं ये लहन्क से बोल रहा हूं।",
+        "ground_truth": "Haan, main Yelahanka mein rehta hoon"
+      },
+      {
+        "model": "whisper",
+        "file": "14_chikkabanavara_phone.wav",
+        "condition": "phone",
+        "locality": "Chikkabanavara",
+        "wer": 1.1666666666666667,
+        "transcript": "मैं चिकका बन्वारा से बोल रहा हूं",
+        "ground_truth": "Haan, main Chikkabanavara mein rehta hoon"
+      }
+    ],
+    "sarvam": [
+      {
+        "model": "sarvam",
+        "file": "05_doddanekundi_noisy.wav",
+        "condition": "noisy",
+        "locality": "Doddanekundi",
+        "wer": 1.3333333333333333,
+        "transcript": "सर, डोल में कुंडी में काम करता हूं।",
+        "ground_truth": "Haan, main Doddanekundi mein rehta hoon"
+      },
+      {
+        "model": "sarvam",
+        "file": "11_yelahanka_fast.wav",
+        "condition": "fast",
+        "locality": "Yelahanka",
+        "wer": 1.3333333333333333,
+        "transcript": "मैं ये लहन का से बोल रहा हूं।",
+        "ground_truth": "Haan, main Yelahanka mein rehta hoon"
+      },
+      {
+        "model": "sarvam",
+        "file": "06_thalaghattapura_phone.wav",
+        "condition": "phone",
+        "locality": "Thalaghattapura",
+        "wer": 1.1666666666666667,
+        "transcript": "मैं पहले घट्टापुरा से बोल रहा हूँ।",
+        "ground_truth": "Haan, main Thalaghattapura mein rehta hoon"
+      },
+      {
+        "model": "sarvam",
+        "file": "14_chikkabanavara_phone.wav",
+        "condition": "phone",
+        "locality": "Chikkabanavara",
+        "wer": 1.1666666666666667,
+        "transcript": "मैं चिक्का बनवारा से बोल रहा हूँ",
+        "ground_truth": "Haan, main Chikkabanavara mein rehta hoon"
+      },
+      {
+        "model": "sarvam",
+        "file": "16_marathahalli_whisper.wav",
+        "condition": "whisper",
+        "locality": "Marathahalli",
+        "wer": 1.1666666666666667,
+        "transcript": "मैं मराठा हल्ली से बोल रहा हूं।",
+        "ground_truth": "Haan, main Marathahalli mein rehta hoon"
+      }
+    ]
+  },
+  "locality_difficulty": [
+    {
+      "locality": "Thalaghattapura",
+      "avg_wer": 1.2777777777777777,
+      "count": 3
+    },
+    {
+      "locality": "Doddanekundi",
+      "avg_wer": 1.2222222222222223,
+      "count": 3
+    },
+    {
+      "locality": "Yelahanka",
+      "avg_wer": 1.2222222222222223,
+      "count": 3
+    },
+    {
+      "locality": "Chikkabanavara",
+      "avg_wer": 1.2222222222222223,
+      "count": 3
+    },
+    {
+      "locality": "Marathahalli",
+      "avg_wer": 1.1666666666666667,
+      "count": 3
+    },
+    {
+      "locality": "Hesaraghatta",
+      "avg_wer": 1.0555555555555556,
+      "count": 3
+    },
+    {
+      "locality": "Byatarayanapura",
+      "avg_wer": 1.0555555555555556,
+      "count": 3
+    },
+    {
+      "locality": "Kr Puram",
+      "avg_wer": 1.0476190476190477,
+      "count": 3
+    },
+    {
+      "locality": "Rajajinagar",
+      "avg_wer": 1.0,
+      "count": 3
+    },
+    {
+      "locality": "Hebbal",
+      "avg_wer": 1.0,
+      "count": 3
+    },
+    {
+      "locality": "Bellandur",
+      "avg_wer": 1.0,
+      "count": 3
+    },
+    {
+      "locality": "Peenya",
+      "avg_wer": 1.0,
+      "count": 3
+    },
+    {
+      "locality": "Koramangala",
+      "avg_wer": 1.0,
+      "count": 3
+    },
+    {
+      "locality": "Jayanagar",
+      "avg_wer": 1.0,
+      "count": 3
+    },
+    {
+      "locality": "Rajarajeshwarinagar",
+      "avg_wer": 1.0,
+      "count": 3
+    },
+    {
+      "locality": "Indiranagar",
+      "avg_wer": 1.0,
+      "count": 3
+    },
+    {
+      "locality": "Hsr Layout",
+      "avg_wer": 0.9523809523809523,
+      "count": 3
+    },
+    {
+      "locality": "Electronic City",
+      "avg_wer": 0.9523809523809523,
+      "count": 3
+    },
+    {
+      "locality": "Whitefield",
+      "avg_wer": 0.8888888888888888,
+      "count": 3
+    },
+    {
+      "locality": "Silk Board",
+      "avg_wer": 0.8571428571428571,
+      "count": 3
+    }
+  ],
+  "code_switch_failures": [],
+  "qualitative_examples": {
+    "deepgram": {
+      "missed": {
+        "ground_truth": "Haan, main Thalaghattapura mein rehta hoon",
+        "transcript": "मैं थैली घटना पूरा से बोल रहा हूं",
+        "locality_hit": false,
+        "fuzzy_score": 0.0,
+        "wer": 1.3333333333333333,
+        "file": "06_thalaghattapura_phone.wav",
+        "locality": "Thalaghattapura"
+      },
+      "partial": {
+        "ground_truth": "Haan, main Hebbal mein rehta hoon",
+        "transcript": "मेन hable area में हूं.",
+        "locality_hit": false,
+        "fuzzy_score": 50.0,
+        "wer": 1.0,
+        "file": "08_hebbal_fast.wav",
+        "locality": "Hebbal"
+      }
+    },
+    "whisper": {
+      "missed": {
+        "ground_truth": "Haan, main Thalaghattapura mein rehta hoon",
+        "transcript": "मैं फैले धट्टा पूरा से बोल रहा हूं।",
+        "locality_hit": false,
+        "fuzzy_score": 0.0,
+        "wer": 1.3333333333333333,
+        "file": "06_thalaghattapura_phone.wav",
+        "locality": "Thalaghattapura"
+      },
+      "partial": null
+    },
+    "sarvam": {
+      "missed": {
+        "ground_truth": "Haan, main Doddanekundi mein rehta hoon",
+        "transcript": "सर, डोल में कुंडी में काम करता हूं।",
+        "locality_hit": false,
+        "fuzzy_score": 0.0,
+        "wer": 1.3333333333333333,
+        "file": "05_doddanekundi_noisy.wav",
+        "locality": "Doddanekundi"
+      },
+      "partial": null
+    }
+  },
+  "recommendation": "RECOMMEND: deepgram -- best accuracy AND entity recognition",
+  "source_results_file": "results/results_20260525_113829.json"
+}

@@ -1,0 +1,72 @@
+{
+  "run_info": {
+    "timestamp": "2026-05-25T11:30:59",
+    "models": [
+      "whisper"
+    ],
+    "total_files": 3,
+    "dry_run": true
+  },
+  "results": [
+    {
+      "file": "01_kr_puram_fast.wav",
+      "locality": "Kr Puram",
+      "ground_truth": "Haan, main Kr Puram mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "whisper": {
+          "transcript": "मैं के आर्पूरम से बोल रहा हूं।",
+          "confidence": null,
+          "latency_ms": 7630,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "02_rajajinagar_noisy.wav",
+      "locality": "Rajajinagar",
+      "ground_truth": "Haan, main Rajajinagar mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "whisper": {
+          "transcript": "हां भईया, राजाजी नगर में",
+          "confidence": null,
+          "latency_ms": 7441,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        }
+      }
+    },
+    {
+      "file": "03_hesaraghatta_whisper.wav",
+      "locality": "Hesaraghatta",
+      "ground_truth": "Haan, main Hesaraghatta mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "whisper": {
+          "transcript": "मैं हिसारा घट्टा एरियों में हूं",
+          "confidence": null,
+          "latency_ms": 7708,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        }
+      }
+    }
+  ]
+}

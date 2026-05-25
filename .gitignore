@@ -118,8 +118,6 @@ venv.bak/
 .agents/
 
 # Benchmark outputs
-results/
-charts/
 
 # Spyder project settings
 .spyderproject

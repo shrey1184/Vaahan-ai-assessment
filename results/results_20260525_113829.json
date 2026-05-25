@@ -1,0 +1,3329 @@
+{
+  "run_info": {
+    "timestamp": "2026-05-25T11:33:29",
+    "models": [
+      "deepgram",
+      "whisper",
+      "sarvam"
+    ],
+    "total_files": 20,
+    "dry_run": false
+  },
+  "results": [
+    {
+      "file": "01_kr_puram_fast.wav",
+      "locality": "Kr Puram",
+      "ground_truth": "Haan, main Kr Puram mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं कर पुरम से बोल रहा हूं.",
+          "confidence": 0.9343262,
+          "latency_ms": 3738,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.8618164
+            },
+            {
+              "word": "कर",
+              "start": 0.24,
+              "end": 0.39999998,
+              "confidence": 0.87353516
+            },
+            {
+              "word": "पुरम",
+              "start": 0.39999998,
+              "end": 0.88,
+              "confidence": 0.9343262
+            },
+            {
+              "word": "से",
+              "start": 0.88,
+              "end": 1.04,
+              "confidence": 1.0
+            },
+            {
+              "word": "बोल",
+              "start": 1.04,
+              "end": 1.28,
+              "confidence": 1.0
+            },
+            {
+              "word": "रहा",
+              "start": 1.28,
+              "end": 1.53,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 1.53,
+              "end": 1.9849375,
+              "confidence": 0.72216797
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbb-3456-7893-8f79-ff612b3c8268",
+              "sha256": "3eeff2ef701778ffa5710bed8dbbe8abd34e6565a26c5f0c84b8b64ad72bfec4",
+              "created": "2026-05-25T06:03:31.953Z",
+              "duration": 1.9849375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं कर पुरम से बोल रहा हूं.",
+                      "confidence": 0.9343262,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.0,
+                          "end": 0.24,
+                          "confidence": 0.8618164,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "कर",
+                          "start": 0.24,
+                          "end": 0.39999998,
+                          "confidence": 0.87353516,
+                          "punctuated_word": "कर"
+                        },
+                        {
+                          "word": "पुरम",
+                          "start": 0.39999998,
+                          "end": 0.88,
+                          "confidence": 0.9343262,
+                          "punctuated_word": "पुरम"
+                        },
+                        {
+                          "word": "से",
+                          "start": 0.88,
+                          "end": 1.04,
+                          "confidence": 1.0,
+                          "punctuated_word": "से"
+                        },
+                        {
+                          "word": "बोल",
+                          "start": 1.04,
+                          "end": 1.28,
+                          "confidence": 1.0,
+                          "punctuated_word": "बोल"
+                        },
+                        {
+                          "word": "रहा",
+                          "start": 1.28,
+                          "end": 1.53,
+                          "confidence": 1.0,
+                          "punctuated_word": "रहा"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 1.53,
+                          "end": 1.9849375,
+                          "confidence": 0.72216797,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं कर पुरम से बोल रहा हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं कर पुरम से बोल रहा हूं.",
+                                "start": 0.0,
+                                "end": 1.9849375
+                              }
+                            ],
+                            "num_words": 7,
+                            "start": 0.0,
+                            "end": 1.9849375
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मैं के आर्पूरम से बोल रहा हूं।",
+          "confidence": null,
+          "latency_ms": 8959,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मैं के. आर. पूरम से बोल रहा हूं।",
+          "confidence": null,
+          "latency_ms": 953,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_b01f47bb-9c60-4081-9087-d546c8bb32d4",
+            "transcript": "मैं के. आर. पूरम से बोल रहा हूं।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "02_rajajinagar_noisy.wav",
+      "locality": "Rajajinagar",
+      "ground_truth": "Haan, main Rajajinagar mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "हाँ भैया, राजाजी नगर में.",
+          "confidence": 0.96240234,
+          "latency_ms": 2441,
+          "word_timings": [
+            {
+              "word": "हाँ",
+              "start": 0.08,
+              "end": 0.39999998,
+              "confidence": 0.5727539
+            },
+            {
+              "word": "भैया",
+              "start": 0.39999998,
+              "end": 0.9,
+              "confidence": 0.94921875
+            },
+            {
+              "word": "राजाजी",
+              "start": 1.04,
+              "end": 1.54,
+              "confidence": 0.96240234
+            },
+            {
+              "word": "नगर",
+              "start": 1.76,
+              "end": 2.01,
+              "confidence": 0.9667969
+            },
+            {
+              "word": "में",
+              "start": 2.01,
+              "end": 2.51,
+              "confidence": 0.99658203
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbb-80b0-7190-b315-46bf8bed0cf1",
+              "sha256": "4b990c4c0cd04af9e174ba950c1262ac301785538310f0218549c5cb1cb888a8",
+              "created": "2026-05-25T06:03:51.017Z",
+              "duration": 2.7599375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "हाँ भैया, राजाजी नगर में.",
+                      "confidence": 0.96240234,
+                      "words": [
+                        {
+                          "word": "हाँ",
+                          "start": 0.08,
+                          "end": 0.39999998,
+                          "confidence": 0.5727539,
+                          "punctuated_word": "हाँ"
+                        },
+                        {
+                          "word": "भैया",
+                          "start": 0.39999998,
+                          "end": 0.9,
+                          "confidence": 0.94921875,
+                          "punctuated_word": "भैया,"
+                        },
+                        {
+                          "word": "राजाजी",
+                          "start": 1.04,
+                          "end": 1.54,
+                          "confidence": 0.96240234,
+                          "punctuated_word": "राजाजी"
+                        },
+                        {
+                          "word": "नगर",
+                          "start": 1.76,
+                          "end": 2.01,
+                          "confidence": 0.9667969,
+                          "punctuated_word": "नगर"
+                        },
+                        {
+                          "word": "में",
+                          "start": 2.01,
+                          "end": 2.51,
+                          "confidence": 0.99658203,
+                          "punctuated_word": "में."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nहाँ भैया, राजाजी नगर में.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "हाँ भैया, राजाजी नगर में.",
+                                "start": 0.08,
+                                "end": 2.51
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 2.51
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "हां भईया, राजाजी नगर में",
+          "confidence": null,
+          "latency_ms": 8406,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "हां भैया, राजाजी नगर में।",
+          "confidence": null,
+          "latency_ms": 4337,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_3adc67b2-650d-49a5-a114-67a45e96befd",
+            "transcript": "हां भैया, राजाजी नगर में।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "03_hesaraghatta_whisper.wav",
+      "locality": "Hesaraghatta",
+      "ground_truth": "Haan, main Hesaraghatta mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं है सारा घटता area में हूं.",
+          "confidence": 0.9785156,
+          "latency_ms": 3783,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.08,
+              "end": 0.32,
+              "confidence": 1.0
+            },
+            {
+              "word": "है",
+              "start": 0.32,
+              "end": 0.35999998,
+              "confidence": 0.9038086
+            },
+            {
+              "word": "सारा",
+              "start": 0.35999998,
+              "end": 0.39999998,
+              "confidence": 0.8852539
+            },
+            {
+              "word": "घटता",
+              "start": 0.39999998,
+              "end": 0.9,
+              "confidence": 0.9785156
+            },
+            {
+              "word": "area",
+              "start": 1.4399999,
+              "end": 1.92,
+              "confidence": 0.9741211
+            },
+            {
+              "word": "में",
+              "start": 1.92,
+              "end": 2.24,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 2.24,
+              "end": 2.74,
+              "confidence": 1.0
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbb-c555-7d80-b5f2-5e73e096c21e",
+              "sha256": "6f19fc041ac3c38afe766cc08ebba210e9b3485922dea6cc1178629459a0ea52",
+              "created": "2026-05-25T06:04:09.024Z",
+              "duration": 2.7839375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं है सारा घटता area में हूं.",
+                      "confidence": 0.9785156,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.08,
+                          "end": 0.32,
+                          "confidence": 1.0,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "है",
+                          "start": 0.32,
+                          "end": 0.35999998,
+                          "confidence": 0.9038086,
+                          "punctuated_word": "है"
+                        },
+                        {
+                          "word": "सारा",
+                          "start": 0.35999998,
+                          "end": 0.39999998,
+                          "confidence": 0.8852539,
+                          "punctuated_word": "सारा"
+                        },
+                        {
+                          "word": "घटता",
+                          "start": 0.39999998,
+                          "end": 0.9,
+                          "confidence": 0.9785156,
+                          "punctuated_word": "घटता"
+                        },
+                        {
+                          "word": "area",
+                          "start": 1.4399999,
+                          "end": 1.92,
+                          "confidence": 0.9741211,
+                          "punctuated_word": "area"
+                        },
+                        {
+                          "word": "में",
+                          "start": 1.92,
+                          "end": 2.24,
+                          "confidence": 1.0,
+                          "punctuated_word": "में"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 2.24,
+                          "end": 2.74,
+                          "confidence": 1.0,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं है सारा घटता area में हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं है सारा घटता area में हूं.",
+                                "start": 0.08,
+                                "end": 2.74
+                              }
+                            ],
+                            "num_words": 7,
+                            "start": 0.08,
+                            "end": 2.74
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मैं हिसारा घट्टा एरियों में हूं",
+          "confidence": null,
+          "latency_ms": 9298,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मैं हेसारा घट्टा एरिया में हूं।",
+          "confidence": null,
+          "latency_ms": 1295,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_f4442a96-4dad-4400-81be-735d25ad6bc6",
+            "transcript": "मैं हेसारा घट्टा एरिया में हूं।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "04_byatarayanapura_clean.wav",
+      "locality": "Byatarayanapura",
+      "ground_truth": "Haan, main Byatarayanapura mein rehta hoon",
+      "condition": "clean",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "हान मैं बेतरयानपुरा में रहता हूं",
+          "confidence": 1.0,
+          "latency_ms": 2276,
+          "word_timings": [
+            {
+              "word": "हान",
+              "start": 0.16,
+              "end": 0.52,
+              "confidence": 0.99902344
+            },
+            {
+              "word": "मैं",
+              "start": 0.52,
+              "end": 0.88,
+              "confidence": 1.0
+            },
+            {
+              "word": "बेतरयानपुरा",
+              "start": 0.88,
+              "end": 1.38,
+              "confidence": 0.46805245
+            },
+            {
+              "word": "में",
+              "start": 2.1599998,
+              "end": 2.3999999,
+              "confidence": 1.0
+            },
+            {
+              "word": "रहता",
+              "start": 2.3999999,
+              "end": 2.8,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 2.8,
+              "end": 3.3,
+              "confidence": 0.99316406
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbb-ff61-7d33-ad1b-dfcce184b4a0",
+              "sha256": "f810fd5f4104dc3e7eecd96b022f51fcec30e6d5bb99429834e5e9276e742a3f",
+              "created": "2026-05-25T06:04:23.434Z",
+              "duration": 3.4559374,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "हान मैं बेतरयानपुरा में रहता हूं",
+                      "confidence": 1.0,
+                      "words": [
+                        {
+                          "word": "हान",
+                          "start": 0.16,
+                          "end": 0.52,
+                          "confidence": 0.99902344,
+                          "punctuated_word": "हान"
+                        },
+                        {
+                          "word": "मैं",
+                          "start": 0.52,
+                          "end": 0.88,
+                          "confidence": 1.0,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "बेतरयानपुरा",
+                          "start": 0.88,
+                          "end": 1.38,
+                          "confidence": 0.46805245,
+                          "punctuated_word": "बेतरयानपुरा"
+                        },
+                        {
+                          "word": "में",
+                          "start": 2.1599998,
+                          "end": 2.3999999,
+                          "confidence": 1.0,
+                          "punctuated_word": "में"
+                        },
+                        {
+                          "word": "रहता",
+                          "start": 2.3999999,
+                          "end": 2.8,
+                          "confidence": 1.0,
+                          "punctuated_word": "रहता"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 2.8,
+                          "end": 3.3,
+                          "confidence": 0.99316406,
+                          "punctuated_word": "हूं"
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nहान मैं बेतरयानपुरा में रहता हूं",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "हान मैं बेतरयानपुरा में रहता हूं",
+                                "start": 0.16,
+                                "end": 3.3
+                              }
+                            ],
+                            "num_words": 6,
+                            "start": 0.16,
+                            "end": 3.3
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "हां, में व्यातरायाना पुरा में रहता हूं",
+          "confidence": null,
+          "latency_ms": 9216,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "हाँ, मैं ब्यातारायानापुरा में रहता हूँ।",
+          "confidence": null,
+          "latency_ms": 1121,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_bb26c871-da15-423c-bd48-c4363860c9f5",
+            "transcript": "हाँ, मैं ब्यातारायानापुरा में रहता हूँ।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "05_doddanekundi_noisy.wav",
+      "locality": "Doddanekundi",
+      "ground_truth": "Haan, main Doddanekundi mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "सर डोलने कुण्डी में काम करता हूं.",
+          "confidence": 0.9658203,
+          "latency_ms": 2537,
+          "word_timings": [
+            {
+              "word": "सर",
+              "start": 0.08,
+              "end": 0.58,
+              "confidence": 0.33862305
+            },
+            {
+              "word": "डोलने",
+              "start": 0.79999995,
+              "end": 1.1999999,
+              "confidence": 0.67541504
+            },
+            {
+              "word": "कुण्डी",
+              "start": 1.1999999,
+              "end": 1.5999999,
+              "confidence": 0.77750653
+            },
+            {
+              "word": "में",
+              "start": 1.5999999,
+              "end": 1.8399999,
+              "confidence": 0.9902344
+            },
+            {
+              "word": "काम",
+              "start": 1.8399999,
+              "end": 2.24,
+              "confidence": 1.0
+            },
+            {
+              "word": "करता",
+              "start": 2.24,
+              "end": 2.48,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 2.48,
+              "end": 2.98,
+              "confidence": 0.9658203
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbc-3662-7683-9a24-67a17ee036c7",
+              "sha256": "76d0a08d6df7a13d3d0aa5a38b44e3c7dac31c57562507bd8f15f821f8934246",
+              "created": "2026-05-25T06:04:37.729Z",
+              "duration": 3.2399375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "सर डोलने कुण्डी में काम करता हूं.",
+                      "confidence": 0.9658203,
+                      "words": [
+                        {
+                          "word": "सर",
+                          "start": 0.08,
+                          "end": 0.58,
+                          "confidence": 0.33862305,
+                          "punctuated_word": "सर"
+                        },
+                        {
+                          "word": "डोलने",
+                          "start": 0.79999995,
+                          "end": 1.1999999,
+                          "confidence": 0.67541504,
+                          "punctuated_word": "डोलने"
+                        },
+                        {
+                          "word": "कुण्डी",
+                          "start": 1.1999999,
+                          "end": 1.5999999,
+                          "confidence": 0.77750653,
+                          "punctuated_word": "कुण्डी"
+                        },
+                        {
+                          "word": "में",
+                          "start": 1.5999999,
+                          "end": 1.8399999,
+                          "confidence": 0.9902344,
+                          "punctuated_word": "में"
+                        },
+                        {
+                          "word": "काम",
+                          "start": 1.8399999,
+                          "end": 2.24,
+                          "confidence": 1.0,
+                          "punctuated_word": "काम"
+                        },
+                        {
+                          "word": "करता",
+                          "start": 2.24,
+                          "end": 2.48,
+                          "confidence": 1.0,
+                          "punctuated_word": "करता"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 2.48,
+                          "end": 2.98,
+                          "confidence": 0.9658203,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nसर डोलने कुण्डी में काम करता हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "सर डोलने कुण्डी में काम करता हूं.",
+                                "start": 0.08,
+                                "end": 2.98
+                              }
+                            ],
+                            "num_words": 7,
+                            "start": 0.08,
+                            "end": 2.98
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "सर्व, दोन्ने कुन्दी में काम करता हूँ।",
+          "confidence": null,
+          "latency_ms": 8878,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "सर, डोल में कुंडी में काम करता हूं।",
+          "confidence": null,
+          "latency_ms": 1413,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_c7126ec3-5d99-4195-9959-34d084dcf5f4",
+            "transcript": "सर, डोल में कुंडी में काम करता हूं।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "06_thalaghattapura_phone.wav",
+      "locality": "Thalaghattapura",
+      "ground_truth": "Haan, main Thalaghattapura mein rehta hoon",
+      "condition": "phone",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं थैली घटना पूरा से बोल रहा हूं",
+          "confidence": 1.0,
+          "latency_ms": 1963,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.08,
+              "end": 0.39999998,
+              "confidence": 1.0
+            },
+            {
+              "word": "थैली",
+              "start": 0.39999998,
+              "end": 0.79999995,
+              "confidence": 0.98291016
+            },
+            {
+              "word": "घटना",
+              "start": 0.79999995,
+              "end": 1.28,
+              "confidence": 0.90625
+            },
+            {
+              "word": "पूरा",
+              "start": 1.28,
+              "end": 1.5999999,
+              "confidence": 0.9506836
+            },
+            {
+              "word": "से",
+              "start": 1.5999999,
+              "end": 1.8399999,
+              "confidence": 1.0
+            },
+            {
+              "word": "बोल",
+              "start": 1.8399999,
+              "end": 2.1599998,
+              "confidence": 1.0
+            },
+            {
+              "word": "रहा",
+              "start": 2.1599998,
+              "end": 2.3999999,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 2.3999999,
+              "end": 2.8999999,
+              "confidence": 0.99316406
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbc-6e5c-7451-9dc4-587ac021c060",
+              "sha256": "e2e7db23f69aac01c3961b7d16651f534002650421cee175e0bcbce9d0d99004",
+              "created": "2026-05-25T06:04:51.485Z",
+              "duration": 3.0719376,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं थैली घटना पूरा से बोल रहा हूं",
+                      "confidence": 1.0,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.08,
+                          "end": 0.39999998,
+                          "confidence": 1.0,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "थैली",
+                          "start": 0.39999998,
+                          "end": 0.79999995,
+                          "confidence": 0.98291016,
+                          "punctuated_word": "थैली"
+                        },
+                        {
+                          "word": "घटना",
+                          "start": 0.79999995,
+                          "end": 1.28,
+                          "confidence": 0.90625,
+                          "punctuated_word": "घटना"
+                        },
+                        {
+                          "word": "पूरा",
+                          "start": 1.28,
+                          "end": 1.5999999,
+                          "confidence": 0.9506836,
+                          "punctuated_word": "पूरा"
+                        },
+                        {
+                          "word": "से",
+                          "start": 1.5999999,
+                          "end": 1.8399999,
+                          "confidence": 1.0,
+                          "punctuated_word": "से"
+                        },
+                        {
+                          "word": "बोल",
+                          "start": 1.8399999,
+                          "end": 2.1599998,
+                          "confidence": 1.0,
+                          "punctuated_word": "बोल"
+                        },
+                        {
+                          "word": "रहा",
+                          "start": 2.1599998,
+                          "end": 2.3999999,
+                          "confidence": 1.0,
+                          "punctuated_word": "रहा"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 2.3999999,
+                          "end": 2.8999999,
+                          "confidence": 0.99316406,
+                          "punctuated_word": "हूं"
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं थैली घटना पूरा से बोल रहा हूं",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं थैली घटना पूरा से बोल रहा हूं",
+                                "start": 0.08,
+                                "end": 2.8999999
+                              }
+                            ],
+                            "num_words": 8,
+                            "start": 0.08,
+                            "end": 2.8999999
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मैं फैले धट्टा पूरा से बोल रहा हूं।",
+          "confidence": null,
+          "latency_ms": 8841,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मैं पहले घट्टापुरा से बोल रहा हूँ।",
+          "confidence": null,
+          "latency_ms": 636,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_5eecc55e-3a38-4370-a514-1893a1c75a8f",
+            "transcript": "मैं पहले घट्टापुरा से बोल रहा हूँ।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "07_silk_board_whisper.wav",
+      "locality": "Silk Board",
+      "ground_truth": "Haan, main Silk Board mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "सिल्क board, south बैंगलोर.",
+          "confidence": 0.9921875,
+          "latency_ms": 3359,
+          "word_timings": [
+            {
+              "word": "सिल्क",
+              "start": 0.16,
+              "end": 0.65398437,
+              "confidence": 0.9921875
+            },
+            {
+              "word": "board",
+              "start": 0.65398437,
+              "end": 1.12,
+              "confidence": 0.9592285
+            },
+            {
+              "word": "south",
+              "start": 1.12,
+              "end": 1.52,
+              "confidence": 0.99609375
+            },
+            {
+              "word": "बैंगलोर",
+              "start": 1.52,
+              "end": 2.02,
+              "confidence": 0.72924805
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbc-a12c-70b0-adc0-a306d7d42544",
+              "sha256": "bd4e08bc13ca0c98d251a6704c87a33055e78d43e004fbcd78499aff61f0baa7",
+              "created": "2026-05-25T06:05:04.818Z",
+              "duration": 2.6159375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "सिल्क board, south बैंगलोर.",
+                      "confidence": 0.9921875,
+                      "words": [
+                        {
+                          "word": "सिल्क",
+                          "start": 0.16,
+                          "end": 0.65398437,
+                          "confidence": 0.9921875,
+                          "punctuated_word": "सिल्क"
+                        },
+                        {
+                          "word": "board",
+                          "start": 0.65398437,
+                          "end": 1.12,
+                          "confidence": 0.9592285,
+                          "punctuated_word": "board,"
+                        },
+                        {
+                          "word": "south",
+                          "start": 1.12,
+                          "end": 1.52,
+                          "confidence": 0.99609375,
+                          "punctuated_word": "south"
+                        },
+                        {
+                          "word": "बैंगलोर",
+                          "start": 1.52,
+                          "end": 2.02,
+                          "confidence": 0.72924805,
+                          "punctuated_word": "बैंगलोर."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nसिल्क board, south बैंगलोर.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "सिल्क board, south बैंगलोर.",
+                                "start": 0.16,
+                                "end": 2.02
+                              }
+                            ],
+                            "num_words": 4,
+                            "start": 0.16,
+                            "end": 2.02
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "Silk Board, South Bangalore",
+          "confidence": null,
+          "latency_ms": 7380,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "सिल्क बोर्ड, साउथ बेंगलोर।",
+          "confidence": null,
+          "latency_ms": 1694,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_787e88c6-249f-4839-a7a8-80c4a28879a7",
+            "transcript": "सिल्क बोर्ड, साउथ बेंगलोर।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "08_hebbal_fast.wav",
+      "locality": "Hebbal",
+      "ground_truth": "Haan, main Hebbal mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मेन hable area में हूं.",
+          "confidence": 0.9863281,
+          "latency_ms": 2718,
+          "word_timings": [
+            {
+              "word": "मेन",
+              "start": 0.08,
+              "end": 0.11499999,
+              "confidence": 0.34179688
+            },
+            {
+              "word": "hable",
+              "start": 0.11499999,
+              "end": 0.14999998,
+              "confidence": 0.4613037
+            },
+            {
+              "word": "area",
+              "start": 0.14999998,
+              "end": 0.39999998,
+              "confidence": 0.9863281
+            },
+            {
+              "word": "में",
+              "start": 0.39999998,
+              "end": 0.65,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 0.65,
+              "end": 1.15,
+              "confidence": 0.9951172
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbc-da15-7af3-a42a-6c4967a36ff5",
+              "sha256": "fcb239a3c0ca7ee05684cb251dd717bbe178c820214a7512a3115ada82ee4190",
+              "created": "2026-05-25T06:05:19.091Z",
+              "duration": 1.5809375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मेन hable area में हूं.",
+                      "confidence": 0.9863281,
+                      "words": [
+                        {
+                          "word": "मेन",
+                          "start": 0.08,
+                          "end": 0.11499999,
+                          "confidence": 0.34179688,
+                          "punctuated_word": "मेन"
+                        },
+                        {
+                          "word": "hable",
+                          "start": 0.11499999,
+                          "end": 0.14999998,
+                          "confidence": 0.4613037,
+                          "punctuated_word": "hable"
+                        },
+                        {
+                          "word": "area",
+                          "start": 0.14999998,
+                          "end": 0.39999998,
+                          "confidence": 0.9863281,
+                          "punctuated_word": "area"
+                        },
+                        {
+                          "word": "में",
+                          "start": 0.39999998,
+                          "end": 0.65,
+                          "confidence": 1.0,
+                          "punctuated_word": "में"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 0.65,
+                          "end": 1.15,
+                          "confidence": 0.9951172,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमेन hable area में हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मेन hable area में हूं.",
+                                "start": 0.08,
+                                "end": 1.15
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 1.15
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "में हेबल एर्यम में हूं।",
+          "confidence": null,
+          "latency_ms": 8335,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मैं हेबल एरिया में हूं।",
+          "confidence": null,
+          "latency_ms": 11155,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_c4bb8131-4d07-4d48-8498-12635e08f86d",
+            "transcript": "मैं हेबल एरिया में हूं।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "09_bellandur_noisy.wav",
+      "locality": "Bellandur",
+      "ground_truth": "Haan, main Bellandur mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "हां भैया, बैलेनडोर में.",
+          "confidence": 0.7011719,
+          "latency_ms": 2667,
+          "word_timings": [
+            {
+              "word": "हां",
+              "start": 0.08,
+              "end": 0.48,
+              "confidence": 0.58691406
+            },
+            {
+              "word": "भैया",
+              "start": 0.48,
+              "end": 0.98,
+              "confidence": 0.7011719
+            },
+            {
+              "word": "बैलेनडोर",
+              "start": 1.12,
+              "end": 1.62,
+              "confidence": 0.5740967
+            },
+            {
+              "word": "में",
+              "start": 1.8399999,
+              "end": 2.34,
+              "confidence": 0.9970703
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbd-3520-7600-8cc1-ac7dc9484a08",
+              "sha256": "844bcb7ca82748402949be0d946b52648d586164534406fe469282863061866e",
+              "created": "2026-05-25T06:05:42.879Z",
+              "duration": 2.4719374,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "हां भैया, बैलेनडोर में.",
+                      "confidence": 0.7011719,
+                      "words": [
+                        {
+                          "word": "हां",
+                          "start": 0.08,
+                          "end": 0.48,
+                          "confidence": 0.58691406,
+                          "punctuated_word": "हां"
+                        },
+                        {
+                          "word": "भैया",
+                          "start": 0.48,
+                          "end": 0.98,
+                          "confidence": 0.7011719,
+                          "punctuated_word": "भैया,"
+                        },
+                        {
+                          "word": "बैलेनडोर",
+                          "start": 1.12,
+                          "end": 1.62,
+                          "confidence": 0.5740967,
+                          "punctuated_word": "बैलेनडोर"
+                        },
+                        {
+                          "word": "में",
+                          "start": 1.8399999,
+                          "end": 2.34,
+                          "confidence": 0.9970703,
+                          "punctuated_word": "में."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nहां भैया, बैलेनडोर में.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "हां भैया, बैलेनडोर में.",
+                                "start": 0.08,
+                                "end": 2.34
+                              }
+                            ],
+                            "num_words": 4,
+                            "start": 0.08,
+                            "end": 2.34
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "हाँ भाईया बेलन दूर्मी",
+          "confidence": null,
+          "latency_ms": 7528,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "हां भैया, बेलन डुर मी।",
+          "confidence": null,
+          "latency_ms": 1736,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_ea79af7e-2575-4643-a5c0-6dc8cff16942",
+            "transcript": "हां भैया, बेलन डुर मी।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "10_peenya_phone.wav",
+      "locality": "Peenya",
+      "ground_truth": "Haan, main Peenya mein rehta hoon",
+      "condition": "phone",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मेरा address पीनियल है",
+          "confidence": 0.9980469,
+          "latency_ms": 1476,
+          "word_timings": [
+            {
+              "word": "मेरा",
+              "start": 0.08,
+              "end": 0.14999998,
+              "confidence": 0.9980469
+            },
+            {
+              "word": "address",
+              "start": 0.14999998,
+              "end": 0.39999998,
+              "confidence": 0.9980469
+            },
+            {
+              "word": "पीनियल",
+              "start": 0.39999998,
+              "end": 0.9,
+              "confidence": 0.8664551
+            },
+            {
+              "word": "है",
+              "start": 1.5999999,
+              "end": 2.0399375,
+              "confidence": 0.97265625
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbd-689f-7fe0-b065-4fa90474237b",
+              "sha256": "bcf153e83e3a66e864a4376938a51c93e732f9dadcfdc9f467fdf855b469e01b",
+              "created": "2026-05-25T06:05:55.140Z",
+              "duration": 2.0399375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मेरा address पीनियल है",
+                      "confidence": 0.9980469,
+                      "words": [
+                        {
+                          "word": "मेरा",
+                          "start": 0.08,
+                          "end": 0.14999998,
+                          "confidence": 0.9980469,
+                          "punctuated_word": "मेरा"
+                        },
+                        {
+                          "word": "address",
+                          "start": 0.14999998,
+                          "end": 0.39999998,
+                          "confidence": 0.9980469,
+                          "punctuated_word": "address"
+                        },
+                        {
+                          "word": "पीनियल",
+                          "start": 0.39999998,
+                          "end": 0.9,
+                          "confidence": 0.8664551,
+                          "punctuated_word": "पीनियल"
+                        },
+                        {
+                          "word": "है",
+                          "start": 1.5999999,
+                          "end": 2.0399375,
+                          "confidence": 0.97265625,
+                          "punctuated_word": "है"
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमेरा address पीनियल है",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मेरा address पीनियल है",
+                                "start": 0.08,
+                                "end": 2.0399375
+                              }
+                            ],
+                            "num_words": 4,
+                            "start": 0.08,
+                            "end": 2.0399375
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मेरा अड्रेस पीनिया है।",
+          "confidence": null,
+          "latency_ms": 7327,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मेरा एड्रेस पीनियर है",
+          "confidence": null,
+          "latency_ms": 4813,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_e6d6d3ec-f479-4a69-a3d7-d77aa0f6270f",
+            "transcript": "मेरा एड्रेस पीनियर है",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "11_yelahanka_fast.wav",
+      "locality": "Yelahanka",
+      "ground_truth": "Haan, main Yelahanka mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं यह लहंका से बोल रहा हूं",
+          "confidence": 0.97265625,
+          "latency_ms": 2867,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.08,
+              "end": 0.24,
+              "confidence": 0.99316406
+            },
+            {
+              "word": "यह",
+              "start": 0.24,
+              "end": 0.48,
+              "confidence": 0.9091797
+            },
+            {
+              "word": "लहंका",
+              "start": 0.48,
+              "end": 0.88,
+              "confidence": 0.7255127
+            },
+            {
+              "word": "से",
+              "start": 0.88,
+              "end": 1.1999999,
+              "confidence": 0.88183594
+            },
+            {
+              "word": "बोल",
+              "start": 1.1999999,
+              "end": 1.4399999,
+              "confidence": 1.0
+            },
+            {
+              "word": "रहा",
+              "start": 1.4399999,
+              "end": 1.68,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 1.68,
+              "end": 2.1409376,
+              "confidence": 0.97265625
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbd-a435-78f0-84b7-446bee15ae9e",
+              "sha256": "6601d1bd40bfb6225d35e70dcbfa7df1965521e019ae1b0da7c5787dddb9d57d",
+              "created": "2026-05-25T06:06:11.608Z",
+              "duration": 2.1409376,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं यह लहंका से बोल रहा हूं",
+                      "confidence": 0.97265625,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.08,
+                          "end": 0.24,
+                          "confidence": 0.99316406,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "यह",
+                          "start": 0.24,
+                          "end": 0.48,
+                          "confidence": 0.9091797,
+                          "punctuated_word": "यह"
+                        },
+                        {
+                          "word": "लहंका",
+                          "start": 0.48,
+                          "end": 0.88,
+                          "confidence": 0.7255127,
+                          "punctuated_word": "लहंका"
+                        },
+                        {
+                          "word": "से",
+                          "start": 0.88,
+                          "end": 1.1999999,
+                          "confidence": 0.88183594,
+                          "punctuated_word": "से"
+                        },
+                        {
+                          "word": "बोल",
+                          "start": 1.1999999,
+                          "end": 1.4399999,
+                          "confidence": 1.0,
+                          "punctuated_word": "बोल"
+                        },
+                        {
+                          "word": "रहा",
+                          "start": 1.4399999,
+                          "end": 1.68,
+                          "confidence": 1.0,
+                          "punctuated_word": "रहा"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 1.68,
+                          "end": 2.1409376,
+                          "confidence": 0.97265625,
+                          "punctuated_word": "हूं"
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं यह लहंका से बोल रहा हूं",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं यह लहंका से बोल रहा हूं",
+                                "start": 0.08,
+                                "end": 2.1409376
+                              }
+                            ],
+                            "num_words": 7,
+                            "start": 0.08,
+                            "end": 2.1409376
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मैं ये लहन्क से बोल रहा हूं।",
+          "confidence": null,
+          "latency_ms": 7273,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मैं ये लहन का से बोल रहा हूं।",
+          "confidence": null,
+          "latency_ms": 7289,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_e9c5bb78-30d9-4ba5-8b81-6e6e01d6b025",
+            "transcript": "मैं ये लहन का से बोल रहा हूं।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "12_koramangala_phone.wav",
+      "locality": "Koramangala",
+      "ground_truth": "Haan, main Koramangala mein rehta hoon",
+      "condition": "phone",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मेरा address कोरा मंगला है.",
+          "confidence": 0.93147784,
+          "latency_ms": 1752,
+          "word_timings": [
+            {
+              "word": "मेरा",
+              "start": 0.08,
+              "end": 0.52,
+              "confidence": 0.99902344
+            },
+            {
+              "word": "address",
+              "start": 0.52,
+              "end": 0.96,
+              "confidence": 0.99902344
+            },
+            {
+              "word": "कोरा",
+              "start": 0.96,
+              "end": 1.4399999,
+              "confidence": 0.93147784
+            },
+            {
+              "word": "मंगला",
+              "start": 1.4399999,
+              "end": 1.8399999,
+              "confidence": 0.46289062
+            },
+            {
+              "word": "है",
+              "start": 1.8399999,
+              "end": 2.34,
+              "confidence": 0.5932617
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbd-eec6-73f0-b428-9f453db39801",
+              "sha256": "6dbf098bd51489d434bf3377a6a80eeb61dad8f5212bca7baf50e36e721411cd",
+              "created": "2026-05-25T06:06:29.460Z",
+              "duration": 2.3759375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मेरा address कोरा मंगला है.",
+                      "confidence": 0.93147784,
+                      "words": [
+                        {
+                          "word": "मेरा",
+                          "start": 0.08,
+                          "end": 0.52,
+                          "confidence": 0.99902344,
+                          "punctuated_word": "मेरा"
+                        },
+                        {
+                          "word": "address",
+                          "start": 0.52,
+                          "end": 0.96,
+                          "confidence": 0.99902344,
+                          "punctuated_word": "address"
+                        },
+                        {
+                          "word": "कोरा",
+                          "start": 0.96,
+                          "end": 1.4399999,
+                          "confidence": 0.93147784,
+                          "punctuated_word": "कोरा"
+                        },
+                        {
+                          "word": "मंगला",
+                          "start": 1.4399999,
+                          "end": 1.8399999,
+                          "confidence": 0.46289062,
+                          "punctuated_word": "मंगला"
+                        },
+                        {
+                          "word": "है",
+                          "start": 1.8399999,
+                          "end": 2.34,
+                          "confidence": 0.5932617,
+                          "punctuated_word": "है."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमेरा address कोरा मंगला है.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मेरा address कोरा मंगला है.",
+                                "start": 0.08,
+                                "end": 2.34
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 2.34
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मेरा अड्रेष कोरमंगला है।",
+          "confidence": null,
+          "latency_ms": 6898,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मेरा एड्रेस कोरमंगला है",
+          "confidence": null,
+          "latency_ms": 780,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_09f4fbc2-d480-4460-9b11-f3af5da36d0f",
+            "transcript": "मेरा एड्रेस कोरमंगला है",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "13_jayanagar_clean.wav",
+      "locality": "Jayanagar",
+      "ground_truth": "Haan, main Jayanagar mein rehta hoon",
+      "condition": "clean",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं जयनगर area में हूं.",
+          "confidence": 1.0,
+          "latency_ms": 2487,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.08,
+              "end": 0.39999998,
+              "confidence": 1.0
+            },
+            {
+              "word": "जयनगर",
+              "start": 0.39999998,
+              "end": 0.9,
+              "confidence": 0.9970703
+            },
+            {
+              "word": "area",
+              "start": 0.96,
+              "end": 1.46,
+              "confidence": 0.98095703
+            },
+            {
+              "word": "में",
+              "start": 1.52,
+              "end": 1.68,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 1.68,
+              "end": 2.1799998,
+              "confidence": 1.0
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbe-1852-7e20-bbc9-c52126c14090",
+              "sha256": "f31a302b08addac762096a8c4436fed061e46c61f0bd15ae838af3387fdb45d0",
+              "created": "2026-05-25T06:06:40.987Z",
+              "duration": 2.3759375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं जयनगर area में हूं.",
+                      "confidence": 1.0,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.08,
+                          "end": 0.39999998,
+                          "confidence": 1.0,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "जयनगर",
+                          "start": 0.39999998,
+                          "end": 0.9,
+                          "confidence": 0.9970703,
+                          "punctuated_word": "जयनगर"
+                        },
+                        {
+                          "word": "area",
+                          "start": 0.96,
+                          "end": 1.46,
+                          "confidence": 0.98095703,
+                          "punctuated_word": "area"
+                        },
+                        {
+                          "word": "में",
+                          "start": 1.52,
+                          "end": 1.68,
+                          "confidence": 1.0,
+                          "punctuated_word": "में"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 1.68,
+                          "end": 2.1799998,
+                          "confidence": 1.0,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं जयनगर area में हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं जयनगर area में हूं.",
+                                "start": 0.08,
+                                "end": 2.1799998
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 2.1799998
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "में जेनगर एरिया में हूं",
+          "confidence": null,
+          "latency_ms": 7076,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मैं जयनगर एरिया में हूँ।",
+          "confidence": null,
+          "latency_ms": 928,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_f048fdc2-f31d-4592-929c-30a81ec46a5a",
+            "transcript": "मैं जयनगर एरिया में हूँ।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "14_chikkabanavara_phone.wav",
+      "locality": "Chikkabanavara",
+      "ground_truth": "Haan, main Chikkabanavara mein rehta hoon",
+      "condition": "phone",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं चिक का बनवारा से बोल रहा हूं.",
+          "confidence": 1.0,
+          "latency_ms": 7085,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.08,
+              "end": 0.39999998,
+              "confidence": 1.0
+            },
+            {
+              "word": "चिक",
+              "start": 0.39999998,
+              "end": 0.64,
+              "confidence": 0.79003906
+            },
+            {
+              "word": "का",
+              "start": 0.64,
+              "end": 0.88,
+              "confidence": 0.33032227
+            },
+            {
+              "word": "बनवारा",
+              "start": 0.88,
+              "end": 1.36,
+              "confidence": 0.8639323
+            },
+            {
+              "word": "से",
+              "start": 1.36,
+              "end": 1.5999999,
+              "confidence": 1.0
+            },
+            {
+              "word": "बोल",
+              "start": 1.5999999,
+              "end": 1.92,
+              "confidence": 1.0
+            },
+            {
+              "word": "रहा",
+              "start": 1.92,
+              "end": 2.24,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 2.24,
+              "end": 2.74,
+              "confidence": 0.66552734
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbe-5b0d-7100-8192-a313a53ebafd",
+              "sha256": "074d002e4603c9a53f30afcb940e402139cfbe75dd7821478d85c0f723255ef3",
+              "created": "2026-05-25T06:06:57.687Z",
+              "duration": 2.9039376,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं चिक का बनवारा से बोल रहा हूं.",
+                      "confidence": 1.0,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.08,
+                          "end": 0.39999998,
+                          "confidence": 1.0,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "चिक",
+                          "start": 0.39999998,
+                          "end": 0.64,
+                          "confidence": 0.79003906,
+                          "punctuated_word": "चिक"
+                        },
+                        {
+                          "word": "का",
+                          "start": 0.64,
+                          "end": 0.88,
+                          "confidence": 0.33032227,
+                          "punctuated_word": "का"
+                        },
+                        {
+                          "word": "बनवारा",
+                          "start": 0.88,
+                          "end": 1.36,
+                          "confidence": 0.8639323,
+                          "punctuated_word": "बनवारा"
+                        },
+                        {
+                          "word": "से",
+                          "start": 1.36,
+                          "end": 1.5999999,
+                          "confidence": 1.0,
+                          "punctuated_word": "से"
+                        },
+                        {
+                          "word": "बोल",
+                          "start": 1.5999999,
+                          "end": 1.92,
+                          "confidence": 1.0,
+                          "punctuated_word": "बोल"
+                        },
+                        {
+                          "word": "रहा",
+                          "start": 1.92,
+                          "end": 2.24,
+                          "confidence": 1.0,
+                          "punctuated_word": "रहा"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 2.24,
+                          "end": 2.74,
+                          "confidence": 0.66552734,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं चिक का बनवारा से बोल रहा हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं चिक का बनवारा से बोल रहा हूं.",
+                                "start": 0.08,
+                                "end": 2.74
+                              }
+                            ],
+                            "num_words": 8,
+                            "start": 0.08,
+                            "end": 2.74
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मैं चिकका बन्वारा से बोल रहा हूं",
+          "confidence": null,
+          "latency_ms": 7563,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मैं चिक्का बनवारा से बोल रहा हूँ",
+          "confidence": null,
+          "latency_ms": 909,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_21c2bd32-9c88-438a-b86d-c75182b55617",
+            "transcript": "मैं चिक्का बनवारा से बोल रहा हूँ",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "15_hsr_layout_clean.wav",
+      "locality": "Hsr Layout",
+      "ground_truth": "Haan, main Hsr Layout mein rehta hoon",
+      "condition": "clean",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मेरा address HSR ले out है",
+          "confidence": 0.75390625,
+          "latency_ms": 2711,
+          "word_timings": [
+            {
+              "word": "मेरा",
+              "start": 0.08,
+              "end": 0.48,
+              "confidence": 1.0
+            },
+            {
+              "word": "address",
+              "start": 0.48,
+              "end": 0.96,
+              "confidence": 1.0
+            },
+            {
+              "word": "hsr",
+              "start": 0.96,
+              "end": 1.46,
+              "confidence": 0.5596517
+            },
+            {
+              "word": "ले",
+              "start": 1.68,
+              "end": 1.8399999,
+              "confidence": 0.4194336
+            },
+            {
+              "word": "out",
+              "start": 1.8399999,
+              "end": 2.24,
+              "confidence": 0.54833984
+            },
+            {
+              "word": "है",
+              "start": 2.24,
+              "end": 2.74,
+              "confidence": 0.75390625
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbe-8b23-74e3-81b5-d93a4509f1e7",
+              "sha256": "0ed9534a9ffca71306643ab58dbd4e195f14e5b4520c514e42f83eae95d321fb",
+              "created": "2026-05-25T06:07:10.312Z",
+              "duration": 2.8319376,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मेरा address HSR ले out है",
+                      "confidence": 0.75390625,
+                      "words": [
+                        {
+                          "word": "मेरा",
+                          "start": 0.08,
+                          "end": 0.48,
+                          "confidence": 1.0,
+                          "punctuated_word": "मेरा"
+                        },
+                        {
+                          "word": "address",
+                          "start": 0.48,
+                          "end": 0.96,
+                          "confidence": 1.0,
+                          "punctuated_word": "address"
+                        },
+                        {
+                          "word": "hsr",
+                          "start": 0.96,
+                          "end": 1.46,
+                          "confidence": 0.5596517,
+                          "punctuated_word": "HSR"
+                        },
+                        {
+                          "word": "ले",
+                          "start": 1.68,
+                          "end": 1.8399999,
+                          "confidence": 0.4194336,
+                          "punctuated_word": "ले"
+                        },
+                        {
+                          "word": "out",
+                          "start": 1.8399999,
+                          "end": 2.24,
+                          "confidence": 0.54833984,
+                          "punctuated_word": "out"
+                        },
+                        {
+                          "word": "है",
+                          "start": 2.24,
+                          "end": 2.74,
+                          "confidence": 0.75390625,
+                          "punctuated_word": "है"
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमेरा address HSR ले out है",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मेरा address HSR ले out है",
+                                "start": 0.08,
+                                "end": 2.74
+                              }
+                            ],
+                            "num_words": 6,
+                            "start": 0.08,
+                            "end": 2.74
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मेरा अद्रेस एच असर लियाउट है।",
+          "confidence": null,
+          "latency_ms": 7854,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मेरा एड्रेस एच एस आर लेआउट है।",
+          "confidence": null,
+          "latency_ms": 1383,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_4d5c4bfa-ad62-4a10-b1ab-9659240b6a0f",
+            "transcript": "मेरा एड्रेस एच एस आर लेआउट है।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "16_marathahalli_whisper.wav",
+      "locality": "Marathahalli",
+      "ground_truth": "Haan, main Marathahalli mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मैं मराठा हल्नी से बोल रहा हूं.",
+          "confidence": 0.99902344,
+          "latency_ms": 2781,
+          "word_timings": [
+            {
+              "word": "मैं",
+              "start": 0.08,
+              "end": 0.39999998,
+              "confidence": 0.9970703
+            },
+            {
+              "word": "मराठा",
+              "start": 0.39999998,
+              "end": 0.9,
+              "confidence": 0.97509766
+            },
+            {
+              "word": "हल्नी",
+              "start": 0.96,
+              "end": 1.36,
+              "confidence": 0.66796875
+            },
+            {
+              "word": "से",
+              "start": 1.36,
+              "end": 1.5999999,
+              "confidence": 1.0
+            },
+            {
+              "word": "बोल",
+              "start": 1.5999999,
+              "end": 1.92,
+              "confidence": 1.0
+            },
+            {
+              "word": "रहा",
+              "start": 1.92,
+              "end": 2.24,
+              "confidence": 1.0
+            },
+            {
+              "word": "हूं",
+              "start": 2.24,
+              "end": 2.74,
+              "confidence": 0.99902344
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbe-bea2-79c3-ae94-c26d9db67cf7",
+              "sha256": "73a8aa5fc2858790c3cab74adbafc4a3ac495e3a9b12f9c6e3c1e4d2336aff2b",
+              "created": "2026-05-25T06:07:23.978Z",
+              "duration": 2.8799374,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मैं मराठा हल्नी से बोल रहा हूं.",
+                      "confidence": 0.99902344,
+                      "words": [
+                        {
+                          "word": "मैं",
+                          "start": 0.08,
+                          "end": 0.39999998,
+                          "confidence": 0.9970703,
+                          "punctuated_word": "मैं"
+                        },
+                        {
+                          "word": "मराठा",
+                          "start": 0.39999998,
+                          "end": 0.9,
+                          "confidence": 0.97509766,
+                          "punctuated_word": "मराठा"
+                        },
+                        {
+                          "word": "हल्नी",
+                          "start": 0.96,
+                          "end": 1.36,
+                          "confidence": 0.66796875,
+                          "punctuated_word": "हल्नी"
+                        },
+                        {
+                          "word": "से",
+                          "start": 1.36,
+                          "end": 1.5999999,
+                          "confidence": 1.0,
+                          "punctuated_word": "से"
+                        },
+                        {
+                          "word": "बोल",
+                          "start": 1.5999999,
+                          "end": 1.92,
+                          "confidence": 1.0,
+                          "punctuated_word": "बोल"
+                        },
+                        {
+                          "word": "रहा",
+                          "start": 1.92,
+                          "end": 2.24,
+                          "confidence": 1.0,
+                          "punctuated_word": "रहा"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 2.24,
+                          "end": 2.74,
+                          "confidence": 0.99902344,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमैं मराठा हल्नी से बोल रहा हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मैं मराठा हल्नी से बोल रहा हूं.",
+                                "start": 0.08,
+                                "end": 2.74
+                              }
+                            ],
+                            "num_words": 7,
+                            "start": 0.08,
+                            "end": 2.74
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मैं मराथा हली से बोल रहा हूं",
+          "confidence": null,
+          "latency_ms": 7477,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मैं मराठा हल्ली से बोल रहा हूं।",
+          "confidence": null,
+          "latency_ms": 1336,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_d5387eb8-0aea-4661-b0d8-d03d8576830c",
+            "transcript": "मैं मराठा हल्ली से बोल रहा हूं।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "17_whitefield_noisy.wav",
+      "locality": "Whitefield",
+      "ground_truth": "Haan, main Whitefield mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "Main Whitefield area में हूं.",
+          "confidence": 0.92089844,
+          "latency_ms": 2459,
+          "word_timings": [
+            {
+              "word": "main",
+              "start": 0.08,
+              "end": 0.39999998,
+              "confidence": 0.87597656
+            },
+            {
+              "word": "whitefield",
+              "start": 0.39999998,
+              "end": 0.9,
+              "confidence": 0.7434082
+            },
+            {
+              "word": "area",
+              "start": 1.12,
+              "end": 1.52,
+              "confidence": 0.9980469
+            },
+            {
+              "word": "में",
+              "start": 1.52,
+              "end": 1.76,
+              "confidence": 0.99902344
+            },
+            {
+              "word": "हूं",
+              "start": 1.76,
+              "end": 2.26,
+              "confidence": 0.92089844
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbe-f250-73f2-b293-2cc80a499a96",
+              "sha256": "038e7f6a42a5239d88389afc6b520d8bb644ad56249709570f0e5694b6a1df5b",
+              "created": "2026-05-25T06:07:36.756Z",
+              "duration": 2.4479375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "Main Whitefield area में हूं.",
+                      "confidence": 0.92089844,
+                      "words": [
+                        {
+                          "word": "main",
+                          "start": 0.08,
+                          "end": 0.39999998,
+                          "confidence": 0.87597656,
+                          "punctuated_word": "Main"
+                        },
+                        {
+                          "word": "whitefield",
+                          "start": 0.39999998,
+                          "end": 0.9,
+                          "confidence": 0.7434082,
+                          "punctuated_word": "Whitefield"
+                        },
+                        {
+                          "word": "area",
+                          "start": 1.12,
+                          "end": 1.52,
+                          "confidence": 0.9980469,
+                          "punctuated_word": "area"
+                        },
+                        {
+                          "word": "में",
+                          "start": 1.52,
+                          "end": 1.76,
+                          "confidence": 0.99902344,
+                          "punctuated_word": "में"
+                        },
+                        {
+                          "word": "हूं",
+                          "start": 1.76,
+                          "end": 2.26,
+                          "confidence": 0.92089844,
+                          "punctuated_word": "हूं."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nMain Whitefield area में हूं.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "Main Whitefield area में हूं.",
+                                "start": 0.08,
+                                "end": 2.26
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 2.26
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "में वाइट फील एरिया में ही",
+          "confidence": null,
+          "latency_ms": 7867,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मेन वाइट फील्ड एरिया में ही।",
+          "confidence": null,
+          "latency_ms": 1212,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_408a2b49-3521-4a4a-b26c-9c5e83a76956",
+            "transcript": "मेन वाइट फील्ड एरिया में ही।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "18_electronic_city_fast.wav",
+      "locality": "Electronic City",
+      "ground_truth": "Haan, main Electronic City mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "हां भैया, इलेक्ट्रॉनिक city में.",
+          "confidence": 0.77246094,
+          "latency_ms": 2530,
+          "word_timings": [
+            {
+              "word": "हां",
+              "start": 0.08,
+              "end": 0.32,
+              "confidence": 0.77246094
+            },
+            {
+              "word": "भैया",
+              "start": 0.32,
+              "end": 0.79999995,
+              "confidence": 0.6611328
+            },
+            {
+              "word": "इलेक्ट्रॉनिक",
+              "start": 0.79999995,
+              "end": 1.3,
+              "confidence": 0.6591797
+            },
+            {
+              "word": "city",
+              "start": 1.4399999,
+              "end": 1.68,
+              "confidence": 0.9980469
+            },
+            {
+              "word": "में",
+              "start": 1.68,
+              "end": 2.1709375,
+              "confidence": 0.967041
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbf-25e1-7691-b436-1b376674cdba",
+              "sha256": "6c42f0369980635269420c6ff79135517e1a1ee8aa2abf256895329dd70e0de5",
+              "created": "2026-05-25T06:07:49.860Z",
+              "duration": 2.1709375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "हां भैया, इलेक्ट्रॉनिक city में.",
+                      "confidence": 0.77246094,
+                      "words": [
+                        {
+                          "word": "हां",
+                          "start": 0.08,
+                          "end": 0.32,
+                          "confidence": 0.77246094,
+                          "punctuated_word": "हां"
+                        },
+                        {
+                          "word": "भैया",
+                          "start": 0.32,
+                          "end": 0.79999995,
+                          "confidence": 0.6611328,
+                          "punctuated_word": "भैया,"
+                        },
+                        {
+                          "word": "इलेक्ट्रॉनिक",
+                          "start": 0.79999995,
+                          "end": 1.3,
+                          "confidence": 0.6591797,
+                          "punctuated_word": "इलेक्ट्रॉनिक"
+                        },
+                        {
+                          "word": "city",
+                          "start": 1.4399999,
+                          "end": 1.68,
+                          "confidence": 0.9980469,
+                          "punctuated_word": "city"
+                        },
+                        {
+                          "word": "में",
+                          "start": 1.68,
+                          "end": 2.1709375,
+                          "confidence": 0.967041,
+                          "punctuated_word": "में."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nहां भैया, इलेक्ट्रॉनिक city में.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "हां भैया, इलेक्ट्रॉनिक city में.",
+                                "start": 0.08,
+                                "end": 2.1709375
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 2.1709375
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "हा भईया, अलेक्ट्रोनिक सिटी में",
+          "confidence": null,
+          "latency_ms": 8197,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "हां भैया, इलेक्ट्रॉनिक्स सिटी में।",
+          "confidence": null,
+          "latency_ms": 2379,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_888a17ec-668b-4060-8197-1b443d9e85ce",
+            "transcript": "हां भैया, इलेक्ट्रॉनिक्स सिटी में।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "19_rajarajeshwarinagar_clean.wav",
+      "locality": "Rajarajeshwarinagar",
+      "ground_truth": "Haan, main Rajarajeshwarinagar mein rehta hoon",
+      "condition": "clean",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "हाँ भैया, राजराजेश्वरी नगर में",
+          "confidence": 0.86328125,
+          "latency_ms": 3798,
+          "word_timings": [
+            {
+              "word": "हाँ",
+              "start": 0.08,
+              "end": 0.155,
+              "confidence": 0.86328125
+            },
+            {
+              "word": "भैया",
+              "start": 0.155,
+              "end": 0.22999999,
+              "confidence": 0.69091797
+            },
+            {
+              "word": "राजराजेश्वरी",
+              "start": 0.22999999,
+              "end": 0.48,
+              "confidence": 0.85872394
+            },
+            {
+              "word": "नगर",
+              "start": 0.48,
+              "end": 0.98,
+              "confidence": 0.99121094
+            },
+            {
+              "word": "में",
+              "start": 2.56,
+              "end": 3.06,
+              "confidence": 1.0
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbf-6250-7ec3-a3b8-d1f2b606a6a1",
+              "sha256": "fe64a3b331c10e168d2c2eaae43025b0f7519c412887c824ebb5c339943e7936",
+              "created": "2026-05-25T06:08:05.736Z",
+              "duration": 3.2639375,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "हाँ भैया, राजराजेश्वरी नगर में",
+                      "confidence": 0.86328125,
+                      "words": [
+                        {
+                          "word": "हाँ",
+                          "start": 0.08,
+                          "end": 0.155,
+                          "confidence": 0.86328125,
+                          "punctuated_word": "हाँ"
+                        },
+                        {
+                          "word": "भैया",
+                          "start": 0.155,
+                          "end": 0.22999999,
+                          "confidence": 0.69091797,
+                          "punctuated_word": "भैया,"
+                        },
+                        {
+                          "word": "राजराजेश्वरी",
+                          "start": 0.22999999,
+                          "end": 0.48,
+                          "confidence": 0.85872394,
+                          "punctuated_word": "राजराजेश्वरी"
+                        },
+                        {
+                          "word": "नगर",
+                          "start": 0.48,
+                          "end": 0.98,
+                          "confidence": 0.99121094,
+                          "punctuated_word": "नगर"
+                        },
+                        {
+                          "word": "में",
+                          "start": 2.56,
+                          "end": 3.06,
+                          "confidence": 1.0,
+                          "punctuated_word": "में"
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nहाँ भैया, राजराजेश्वरी नगर में",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "हाँ भैया, राजराजेश्वरी नगर में",
+                                "start": 0.08,
+                                "end": 3.06
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 3.06
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "हा भईया, राज राजेशवरी नगर में",
+          "confidence": null,
+          "latency_ms": 7951,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "हां भैया, राजराजेश्वरी नगर में।",
+          "confidence": null,
+          "latency_ms": 1177,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_d772ec72-9a82-4190-a61d-226547c0f724",
+            "transcript": "हां भैया, राजराजेश्वरी नगर में।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "20_indiranagar_noisy.wav",
+      "locality": "Indiranagar",
+      "ground_truth": "Haan, main Indiranagar mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "deepgram": {
+          "transcript": "मेरा address इंदिरा नगर है.",
+          "confidence": 0.9614258,
+          "latency_ms": 2569,
+          "word_timings": [
+            {
+              "word": "मेरा",
+              "start": 0.08,
+              "end": 0.48,
+              "confidence": 0.9941406
+            },
+            {
+              "word": "address",
+              "start": 0.48,
+              "end": 0.88,
+              "confidence": 0.99609375
+            },
+            {
+              "word": "इंदिरा",
+              "start": 0.88,
+              "end": 1.38,
+              "confidence": 0.9526367
+            },
+            {
+              "word": "नगर",
+              "start": 1.5999999,
+              "end": 1.8399999,
+              "confidence": 0.9614258
+            },
+            {
+              "word": "है",
+              "start": 1.8399999,
+              "end": 2.3039374,
+              "confidence": 0.9301758
+            }
+          ],
+          "detected_language": null,
+          "raw_response": {
+            "metadata": {
+              "transaction_key": "deprecated",
+              "request_id": "019e5dbf-9723-7ca2-94ba-ae9e138036c8",
+              "sha256": "d36f10d11248ff55a0d8e2e78ff7242f20f1b73b230269be043759a31fcf99bc",
+              "created": "2026-05-25T06:08:18.848Z",
+              "duration": 2.3039374,
+              "channels": 1,
+              "models": [
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d"
+              ],
+              "model_info": {
+                "a88553c1-baa3-45d7-8113-33a690ce1d6d": {
+                  "name": "2-general-nova",
+                  "version": "2023-09-15.32170",
+                  "arch": "nova-2"
+                }
+              }
+            },
+            "results": {
+              "channels": [
+                {
+                  "alternatives": [
+                    {
+                      "transcript": "मेरा address इंदिरा नगर है.",
+                      "confidence": 0.9614258,
+                      "words": [
+                        {
+                          "word": "मेरा",
+                          "start": 0.08,
+                          "end": 0.48,
+                          "confidence": 0.9941406,
+                          "punctuated_word": "मेरा"
+                        },
+                        {
+                          "word": "address",
+                          "start": 0.48,
+                          "end": 0.88,
+                          "confidence": 0.99609375,
+                          "punctuated_word": "address"
+                        },
+                        {
+                          "word": "इंदिरा",
+                          "start": 0.88,
+                          "end": 1.38,
+                          "confidence": 0.9526367,
+                          "punctuated_word": "इंदिरा"
+                        },
+                        {
+                          "word": "नगर",
+                          "start": 1.5999999,
+                          "end": 1.8399999,
+                          "confidence": 0.9614258,
+                          "punctuated_word": "नगर"
+                        },
+                        {
+                          "word": "है",
+                          "start": 1.8399999,
+                          "end": 2.3039374,
+                          "confidence": 0.9301758,
+                          "punctuated_word": "है."
+                        }
+                      ],
+                      "paragraphs": {
+                        "transcript": "\nमेरा address इंदिरा नगर है.",
+                        "paragraphs": [
+                          {
+                            "sentences": [
+                              {
+                                "text": "मेरा address इंदिरा नगर है.",
+                                "start": 0.08,
+                                "end": 2.3039374
+                              }
+                            ],
+                            "num_words": 5,
+                            "start": 0.08,
+                            "end": 2.3039374
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "whisper": {
+          "transcript": "मेरा अड्रेस इंडिरानगर है।",
+          "confidence": null,
+          "latency_ms": 7413,
+          "word_timings": [],
+          "detected_language": "hi",
+          "raw_response": {
+            "language_probability": 1
+          }
+        },
+        "sarvam": {
+          "transcript": "मेरा एड्रेस इंदिरा नगर है।",
+          "confidence": null,
+          "latency_ms": 1318,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_df84014a-7d51-4dca-ad4c-4f70a8e2a8ee",
+            "transcript": "मेरा एड्रेस इंदिरा नगर है।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    }
+  ]
+}

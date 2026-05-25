@@ -1,0 +1,78 @@
+{
+  "run_info": {
+    "timestamp": "2026-05-25T11:33:16",
+    "models": [
+      "sarvam"
+    ],
+    "total_files": 3,
+    "dry_run": true
+  },
+  "results": [
+    {
+      "file": "01_kr_puram_fast.wav",
+      "locality": "Kr Puram",
+      "ground_truth": "Haan, main Kr Puram mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "sarvam": {
+          "transcript": "मैं के. आर. पूरम से बोल रहा हूं।",
+          "confidence": null,
+          "latency_ms": 1233,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_56caad41-b4f1-45f2-b82b-cbb16862e464",
+            "transcript": "मैं के. आर. पूरम से बोल रहा हूं।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "02_rajajinagar_noisy.wav",
+      "locality": "Rajajinagar",
+      "ground_truth": "Haan, main Rajajinagar mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "sarvam": {
+          "transcript": "हां भैया, राजाजी नगर में।",
+          "confidence": null,
+          "latency_ms": 2807,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_6ecee512-9587-4f0e-8391-96da81ba6837",
+            "transcript": "हां भैया, राजाजी नगर में।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    },
+    {
+      "file": "03_hesaraghatta_whisper.wav",
+      "locality": "Hesaraghatta",
+      "ground_truth": "Haan, main Hesaraghatta mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050,
+      "models": {
+        "sarvam": {
+          "transcript": "मैं हेसारा घट्टा एरिया में हूं।",
+          "confidence": null,
+          "latency_ms": 1275,
+          "word_timings": [],
+          "detected_language": "hi-IN",
+          "raw_response": {
+            "request_id": "20260525_d157103a-3dec-40a6-b133-617ce48384d2",
+            "transcript": "मैं हेसारा घट्टा एरिया में हूं।",
+            "language_code": "hi-IN"
+          }
+        }
+      }
+    }
+  ]
+}
