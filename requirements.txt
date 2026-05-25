@@ -1,0 +1,12 @@
+deepgram-sdk
+openai
+requests
+google-cloud-speech
+pydub
+python-dotenv
+tabulate
+tqdm
+jiwer
+rapidfuzz
+matplotlib
+pandas

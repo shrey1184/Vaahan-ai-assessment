@@ -1,0 +1,164 @@
+{
+  "recordings": [
+    {
+      "file": "01_kr_puram_fast.wav",
+      "locality": "Kr Puram",
+      "sentence": "Haan, main Kr Puram mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "02_rajajinagar_noisy.wav",
+      "locality": "Rajajinagar",
+      "sentence": "Haan, main Rajajinagar mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "03_hesaraghatta_whisper.wav",
+      "locality": "Hesaraghatta",
+      "sentence": "Haan, main Hesaraghatta mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "04_byatarayanapura_clean.wav",
+      "locality": "Byatarayanapura",
+      "sentence": "Haan, main Byatarayanapura mein rehta hoon",
+      "condition": "clean",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "05_doddanekundi_noisy.wav",
+      "locality": "Doddanekundi",
+      "sentence": "Haan, main Doddanekundi mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "06_thalaghattapura_phone.wav",
+      "locality": "Thalaghattapura",
+      "sentence": "Haan, main Thalaghattapura mein rehta hoon",
+      "condition": "phone",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "07_silk_board_whisper.wav",
+      "locality": "Silk Board",
+      "sentence": "Haan, main Silk Board mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "08_hebbal_fast.wav",
+      "locality": "Hebbal",
+      "sentence": "Haan, main Hebbal mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "09_bellandur_noisy.wav",
+      "locality": "Bellandur",
+      "sentence": "Haan, main Bellandur mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "10_peenya_phone.wav",
+      "locality": "Peenya",
+      "sentence": "Haan, main Peenya mein rehta hoon",
+      "condition": "phone",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "11_yelahanka_fast.wav",
+      "locality": "Yelahanka",
+      "sentence": "Haan, main Yelahanka mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "12_koramangala_phone.wav",
+      "locality": "Koramangala",
+      "sentence": "Haan, main Koramangala mein rehta hoon",
+      "condition": "phone",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "13_jayanagar_clean.wav",
+      "locality": "Jayanagar",
+      "sentence": "Haan, main Jayanagar mein rehta hoon",
+      "condition": "clean",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "14_chikkabanavara_phone.wav",
+      "locality": "Chikkabanavara",
+      "sentence": "Haan, main Chikkabanavara mein rehta hoon",
+      "condition": "phone",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "15_hsr_layout_clean.wav",
+      "locality": "Hsr Layout",
+      "sentence": "Haan, main Hsr Layout mein rehta hoon",
+      "condition": "clean",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "16_marathahalli_whisper.wav",
+      "locality": "Marathahalli",
+      "sentence": "Haan, main Marathahalli mein rehta hoon",
+      "condition": "whisper",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "17_whitefield_noisy.wav",
+      "locality": "Whitefield",
+      "sentence": "Haan, main Whitefield mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "18_electronic_city_fast.wav",
+      "locality": "Electronic City",
+      "sentence": "Haan, main Electronic City mein rehta hoon",
+      "condition": "fast",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "19_rajarajeshwarinagar_clean.wav",
+      "locality": "Rajarajeshwarinagar",
+      "sentence": "Haan, main Rajarajeshwarinagar mein rehta hoon",
+      "condition": "clean",
+      "language": "Hindi",
+      "sample_rate": 22050
+    },
+    {
+      "file": "20_indiranagar_noisy.wav",
+      "locality": "Indiranagar",
+      "sentence": "Haan, main Indiranagar mein rehta hoon",
+      "condition": "noisy",
+      "language": "Hindi",
+      "sample_rate": 22050
+    }
+  ]
+}
