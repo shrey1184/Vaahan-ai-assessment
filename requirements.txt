@@ -10,3 +10,5 @@ jiwer
 rapidfuzz
 matplotlib
 pandas
+markdown2
+weasyprint
